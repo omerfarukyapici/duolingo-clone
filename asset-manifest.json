@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/duolingo-clone/static/css/main.3014be4d.css",
-    "main.js": "/duolingo-clone/static/js/main.33ea699c.js",
+    "main.css": "/duolingo-clone/static/css/main.13fbb1fb.css",
+    "main.js": "/duolingo-clone/static/js/main.a2493a70.js",
     "static/js/787.d68bcd26.chunk.js": "/duolingo-clone/static/js/787.d68bcd26.chunk.js",
     "static/media/games.gif": "/duolingo-clone/static/media/games.096a0396d6ba8ce1b866.gif",
     "static/media/monkey.gif": "/duolingo-clone/static/media/monkey.90ba6d328c3326477ab9.gif",
@@ -295,12 +295,12 @@
     "static/media/navFive.svg": "/duolingo-clone/static/media/navFive.d3f3ad5d80a9a934e00054f56ec5fbe9.svg",
     "static/media/down.svg": "/duolingo-clone/static/media/down.b76daa15f0915b126bcbda5a1ef64454.svg",
     "static/media/triangle.svg": "/duolingo-clone/static/media/triangle.9fc0e85ce3962dd5e468c4728e606431.svg",
-    "main.3014be4d.css.map": "/duolingo-clone/static/css/main.3014be4d.css.map",
-    "main.33ea699c.js.map": "/duolingo-clone/static/js/main.33ea699c.js.map",
+    "main.13fbb1fb.css.map": "/duolingo-clone/static/css/main.13fbb1fb.css.map",
+    "main.a2493a70.js.map": "/duolingo-clone/static/js/main.a2493a70.js.map",
     "787.d68bcd26.chunk.js.map": "/duolingo-clone/static/js/787.d68bcd26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3014be4d.css",
-    "static/js/main.33ea699c.js"
+    "static/css/main.13fbb1fb.css",
+    "static/js/main.a2493a70.js"
   ]
 }
