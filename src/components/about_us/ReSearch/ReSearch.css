@@ -1,0 +1,136 @@
+/* ReSearch Page */
+
+/* Header */
+.ReSearch-Header {
+  background-image: url("./ReSearchİmg/HeaderBg.svg");
+  background-position: top right;
+  background-size: 40rem;
+  background-repeat: no-repeat;
+}
+
+/* Publication */
+.PublicİmgHover:hover {
+  position: relative;
+  border: 1px solid rgb(44, 43, 43);
+  transform: scale(1.03555555555);
+  transition: 0.2s ease-out;
+}
+
+/* Data Tool */
+
+.dataToolComp {
+  border: 1px solid #d9d9d9;
+  border-radius: 1rem;
+}
+.dataToolComp:hover {
+  position: relative;
+  border: 1px solid rgb(44, 43, 43);
+  transform: scale(1.02555555555);
+  transition: 0.2s ease-out;
+}
+
+.dataİcon {
+  border-radius: 50%;
+  background-color: #1cb0f6;
+  padding: 0.6rem;
+}
+
+.hoverLink:hover .dataİcon {
+  background-color: rgb(0, 128, 202);
+}
+.hoverName {
+  color: #1cb0f6;
+}
+
+.hoverLink:hover .hoverName {
+  color: rgb(0, 128, 202);
+}
+
+/* Our Team */
+
+.show {
+  position: relative;
+  z-index: 20;
+  top: -9rem;
+  margin-bottom: -9rem;
+  left: 0;
+  color: white;
+  width: auto;
+  text-align: center;
+  display: none;
+  border-radius: 1rem;
+  height: 9rem;
+}
+.Teamİmg {
+  border-radius: 1rem;
+}
+.TeamComp:hover .show {
+  display: block;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgb(39, 38, 38) 4%,
+    rgba(32, 31, 32, 0.592) 30%,
+    rgba(43, 44, 44, 0) 100%
+  );
+  position: relative;
+  transform: scale(1.01555555555);
+  transition: 0.1s ease-out;
+}
+.TeamComp:hover .Teamİmg {
+  position: relative;
+  transform: scale(1.01555555555);
+  transition: 0.2s ease-out;
+}
+.TeamComp {
+  width: 149px;
+  height: 149px;
+}
+
+/* Footer */
+.ReSearch-Footer {
+  background-image: url("./ReSearchİmg/FooterBg-2.svg"),
+    url("./ReSearchİmg/FooterBg.svg");
+  background-position: left bottom, right top;
+  background-repeat: no-repeat;
+  background-size: 13rem;
+}
+
+.SeeAllJobs {
+  font-size: 24px;
+  line-height: 24px;
+  border-bottom: 4px solid #1899d6;
+  background-color: #1cb0f6;
+}
+
+/* MEDİA */
+
+@media (max-width: 1200px) {
+  .ReSearch-Header {
+    background-size: 30rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .ReSearch-Header {
+    background-size: 20rem;
+  }
+  .ReSearch-Footer {
+    background-size: 7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .ReSearch-Header {
+    background-size: 18rem;
+  }
+  .show {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      0deg,
+      rgb(0, 0, 0) 4%,
+      rgba(2, 1, 3, 0.592) 50%,
+      rgba(0, 212, 255, 0) 100%
+    );
+  }
+}

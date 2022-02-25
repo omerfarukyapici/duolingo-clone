@@ -1,0 +1,60 @@
+/* Footer */
+.career-Footer li {
+    color: #afafaf;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    margin: .7rem;
+    opacity: .8;
+}
+.career-Footer li:hover {
+    opacity: 1;
+}
+
+
+/*
+Content Job 
+- Slider */
+
+.Career-slider-part img ,
+.Career-slider-part div {
+    border-radius: 1rem;
+}
+
+.Career-slider-part .slick-arrow ,.Career-slider-part .slick-next {
+    display: none !important;
+}
+.Career-slider-part .slick-dots {
+    bottom: -40px ;
+    opacity: 1;
+}
+.Career-slider-part .slick-dots li button:before {
+    font-size: 10px;
+    opacity: .25;
+}
+
+/* Content Student  */
+.teamLinkedinİmg {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-image: url("../Press/Pressİmg/linkedin.svg");
+    background-repeat: no-repeat;
+    display: block;
+}
+.teamLinkedinİmg:hover {
+    background-image: url("../Press/Pressİmg/linkedinHover.svg");
+    transition: .5s;
+}
+
+
+
+
+@media (max-width: 700px) {
+    .career-Footer {
+        border-top: 1px solid #d6d8da ;
+    }
+    .slick-dots {
+        bottom: -30px ;
+    }
+    
+}

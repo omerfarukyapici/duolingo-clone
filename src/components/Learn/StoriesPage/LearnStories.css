@@ -1,0 +1,32 @@
+.trainingStoriesComp .trainingStoriesFeatures {
+    animation: featuresScale .2s ease-out ;
+}
+@keyframes featuresScale {
+    from {
+
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.trainingStoriesComp img:hover {
+    position: relative;
+    transform: scale(1.044444);
+}
+
+
+
+.trainingStoriesFeatures {
+    z-index: 20 !important;
+}
+
+@media (max-width: 1023px) {
+    .learnStoriesFooter {
+        display: none;
+    }
+    .bottomPadding {
+        padding-bottom: 11rem;
+    }
+  }

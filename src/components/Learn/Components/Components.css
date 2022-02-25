@@ -1,0 +1,287 @@
+/* NavLinkComp */
+.moreFeaturesHover {
+  display: none;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 3.8rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(216, 214, 214);
+  font-weight: 700;
+  overflow: hidden;
+}
+.moreFeaturesHover li {
+  border-top: 2px solid rgb(216, 214, 214);
+  padding: 0.8rem;
+  border-radius: 0.1rem;
+}
+.moreFeaturesHover li:hover {
+  background-color: rgb(248, 244, 244);
+}
+.moreFeaturesHover li:nth-child(1):hover {
+  background: none;
+}
+.moreFeaturesHover a {
+  color: #1cb0f6;
+}
+.moreFeaturesHover a:hover {
+  color: #34b4f0;
+}
+
+.moreFeaturesHover li:nth-child(1) {
+  border-top: none;
+}
+.moreFeaturesHover li:nth-child(1) a {
+  color: rgb(75, 73, 73);
+}
+
+.checkPart img {
+  background-color: #ff9600;
+  width: 2rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+}
+
+.showFeatures:hover .moreFeaturesHover {
+  display: block;
+}
+
+@media (max-width: 1025px) {
+  .moreFeaturesHover {
+    display: none !important;
+  }
+}
+
+.hoverİcon {
+  transform: rotate(45deg);
+  border: solid 1px rgb(163, 161, 161);
+  background-color: white;
+  z-index: 1;
+}
+
+/* Learn Page Content Part */
+
+/* .learnPage-Content .lessonsDiv div {
+  width: full;
+  display: flex;
+} */
+
+.learnPage-Content .singleComp {
+  display: flex;
+  justify-content: center;
+}
+.learnPage-Content .multipleComp {
+  display: flex;
+  justify-content: center;
+}
+.showFeatures .stars img {
+  width: 38px;
+  height: 38px;
+}
+
+.lessonShowBtn .lessonİmg {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.lessonİmgDiv {
+  background-color: #1cb0f6;
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+  border: solid 0.5rem rgb(255, 255, 255);
+  overflow: hidden;
+}
+.lessonİmgDivParent {
+  border: solid 0.5rem #E5E5E5;
+  border-radius: 50%;
+}
+.lessonShowBtn:hover .lessonİmg {
+  animation: lessonİmgAnimation 2.5s ease-in-out;
+}
+
+.showFeatures .showFeaturesArrow {
+  display: block;
+  background-color: #1cb0f6;
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -5px;
+  left: 47%;
+}
+
+@keyframes lessonİmgAnimation {
+  0% {
+    position: relative;
+    left: 0;
+    transition: ease-in-out 0.3s;
+  }
+  10%{
+    position: relative;
+    left: 4px;
+    transition: ease-in-out 0.6s;
+    
+  }
+  20% {
+    position: relative;
+    left: 0;
+    transform: rotate(20deg);
+    transition: ease-in-out 0.8s;
+    left: -5rem;
+    opacity: 0;
+  }
+  30% {
+    transition: 1s;
+    transition: ease-in-out 1s;
+    position: relative;
+    opacity: 0;
+  }
+  32%{
+    left: 5rem;
+    opacity: 0;
+    transition: ease-in-out 1.3s;
+    position: relative;
+  }
+  35%{
+    position: relative;
+    opacity: 1;
+    left: 4rem;
+    transition: ease-in-out 1.5s;
+  }
+  
+  50%{
+    position: relative;
+    transition: ease-in-out 1.7s;
+  }
+  60%{
+    left: 1rem;
+    position: relative; 
+    transition: ease-in-out 1.9s;
+  }
+  70%{
+    left: 1rem;
+    position: relative;
+    transition: ease-in-out 2.2s;
+  } 
+  80% {
+    transform: rotate(-360deg);
+    left: 1rem;
+    transition: ease-in-out 2.5;
+    position: relative;
+  }
+  90%{
+    left: 1rem;
+    position: relative;
+    transition: ease-in-out 2.7;
+  }
+  100% {
+    transform: rotate(2deg);
+    transition: ease-in-out 3s;
+    left: 0;
+    position: relative;
+  }
+}
+
+.scaleFeature {
+  animation: showFeaturesScale .280s ease-out;
+}
+
+@keyframes showFeaturesScale {
+  0% {
+    transform: scale(0);
+    transition: .2s ;
+  }
+  100% {
+    transform: scale(1);
+    transition: .5s ;
+  }
+}
+
+@media (max-width: 490px) {
+  .learnPage-Content .multipleComp {
+    display: block;
+  }
+  .showFeatures .showFeaturesArrow {
+    left: 48%;
+  }
+}
+
+
+
+
+
+.scaleFeature .learnBtnStyleOne {
+  border: solid 1px rgb(74, 107, 168);
+  box-shadow: 0px 3px 2px rgb(74, 107, 168);
+}
+
+.scaleFeature .learnBtnStyleTwo {
+  border: solid 1px rgb(228, 224, 224);
+  box-shadow: 0px 3px 2px rgb(209, 205, 205);
+}
+.learnBtnStyleFour {
+  border: solid 2px rgb(228, 224, 224);
+  box-shadow: 0px 3px 2px rgb(201, 198, 198);
+  background-image: url("../Learnİmg/dumbleTwo.svg");
+  background-repeat: no-repeat;
+  background-size: 2.5rem;
+  background-position: center;
+}
+.scaleFeature .learnBtnStyleOne:focus, 
+.scaleFeature .learnBtnStyleTwo:focus,
+.learnBtnStyleFour:focus  {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+.scaleFeature .learnBtnStyleThree {
+  background-image: url("../Learnİmg/key.svg");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: center;
+}
+
+
+
+
+@media (max-width: 1300px) {
+  .hideDumbell {
+    display: none !important;
+  }
+  .learnFooterHide {
+    display: none;
+  }
+}
+
+
+.LearnFooter li {
+  margin: 1rem;
+}
+.LearnFooter li a {
+  color:#afafaf ;
+  font-weight: 700;
+}
+.LearnFooter li a:hover{
+  color:#1cb0f6 ;
+  
+}
+
+
+
+
+/* LeagueCompOne and LeagueCompTwo buttons shadow */
+.LeagueCompButtonOne {
+  border-bottom: .2733rem solid rgb(103, 170, 62);
+}
+.LeagueCompButtonTwo {
+  border-bottom: .2733rem solid rgb(72, 137, 167);
+}
+
+.LeagueCompButtonOne:focus , 
+.LeagueCompButtonTwo:focus {
+  border-bottom: none;
+  position: relative;
+  top: 4px;
+}

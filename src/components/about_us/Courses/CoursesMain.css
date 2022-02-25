@@ -1,0 +1,135 @@
+/* Genaral Css */
+.Container {
+  width: 1080px;
+}
+
+/* Header */
+.courses-Header {
+  box-shadow: #1cb0f6 0px 2px 4px, #1cb0f6 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -5px 0px inset !important;
+  font-size: 15px !important;
+}
+
+.courses-Header:focus {
+  box-shadow: none !important;
+  position: relative !important;
+  top: 3px !important;
+}
+
+.c-humburger-button {
+  display: none;
+}
+
+.c-humburger-links {
+  position: absolute;
+  background-color: white;
+  color: black;
+  right: .2rem;
+  display: none;
+  background-color: #fff;
+  border: 2px solid #e5e5e5;
+  border-radius: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translateZ(0);
+}
+.c-humburger-links a {
+  color: #4b4b4b;
+  font-weight: 700;
+  overflow: hidden;
+  padding: 12px 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c-border-t:hover {
+    background-color: #f7f7f7;
+}
+
+.c-border-t {
+  border-top: 2px solid #e5e5e5;
+  text-align: left ;
+}
+
+/* Content */
+
+.c-Content {
+  padding-top: 4.7rem;
+  padding-bottom: 3rem;
+}
+.c-Content-container {
+  width: 912px;
+}
+.c-content-Lngs {
+  padding-right: 1.4rem;
+  background-image: url("../About_Us_İmg/b-row.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 0.9rem;
+}
+
+.c-Content .c-lang-cards a {
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 2px 2px 4px;
+  cursor: pointer;
+  display: inline-block;
+  flex: 1 1 auto;
+  margin: 12px;
+  max-width: 240px;
+  min-height: 217px;
+  min-width: 200px;
+  padding: 12px 12px 24px;
+  text-align: center;
+}
+
+.c-Content .c-lang-cards a:hover {
+  background-color: #e5e5e5;
+}
+
+.c-Content .c-lang-cards a img {
+  width: 88px;
+}
+
+/* Footer */
+.c-Footer .c-Footer-Container {
+  width: 1080px;
+}
+.c-Footer-Container {
+  border-top: 2px solid #e5e5e5;
+}
+
+.c-Footer li a {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #afafaf;
+}
+.c-Footer li a:hover {
+  color: #1cb0f6;
+}
+.c-Footer li {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* MEDİA */
+
+@media (max-width: 880px) {
+  .c-Footer {
+    display: none;
+  }
+  .c-humburger-button {
+    display: block;
+  }
+  .courses-Header {
+    display: none !important;
+  }
+}
+
+@media (max-width: 638px) {
+  .c-Content .c-lang-cards a {
+    padding: 12px 42px 24px;
+  }
+}

@@ -1,0 +1,117 @@
+/* Navbar */
+.PressNavbar .navbar {
+  border-bottom: 2px solid #e5e5e5;
+  background-color: white;
+  height: 4.5rem;
+}
+.NavComp  {
+  color: #afafaf;
+  font-size: 15px;
+  font-weight: 500;
+}
+.NavComp:active {
+  color: #1cb0f6;
+  position: relative;
+  border-bottom: 6px solid #1cb0f6;
+  font-size: 15px;
+}
+.PressNavbar .hmbr {
+  color:#4b4b4b ;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 1rem;
+  padding-left: .6rem;
+  border: 1px solid #e1e3e4;
+}
+.PressNavbar .hmbr:active {
+  color: #1cb0f6;
+}
+
+.PressNavbar .PressNavSocial .twitter,
+.PressNavbar .PressNavSocial .instagram,
+.PressNavbar .PressNavSocial .facebook,
+.PressNavbar .PressNavSocial .linkedin {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.PressNavbar .PressNavSocial .twitter {
+  background-image: url("Pressİmg/twitter.svg");
+}
+.PressNavbar .PressNavSocial .twitter:hover {
+  background-image: url("./Pressİmg/twitterHover.svg");
+  transition: 0.5s;
+  display: block;
+}
+
+.PressNavbar .PressNavSocial .instagram {
+  background-image: url("Pressİmg/instagram.svg");
+}
+.PressNavbar .PressNavSocial .instagram:hover {
+  background-image: url("./Pressİmg/instagramHover.svg");
+  transition: 0.5s;
+  display: block;
+}
+
+.PressNavbar .PressNavSocial .facebook {
+  background-image: url("Pressİmg/facebook.svg");
+}
+.PressNavbar .PressNavSocial .facebook:hover {
+  background-image: url("./Pressİmg/facebookHover.svg");
+  transition: 0.5s;
+  display: block;
+}
+
+.PressNavbar .PressNavSocial .linkedin {
+  background-image: url("Pressİmg/linkedin.svg");
+}
+.PressNavbar .PressNavSocial .linkedin:hover {
+  background-image: url("./Pressİmg/linkedinHover.svg");
+  transition: 0.5s;
+  display: block;
+}
+
+.PressNavbar .PressNavSocial .socline {
+  background-color: #7c7b7b;
+  height: 36px;
+  opacity: 0.2;
+  width: 2px;
+  display: block;
+}
+
+.PressNavbar .humburgerMenu {
+  background-image: url('./Pressİmg/humİcon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2rem;
+  display: block;
+  height: 2rem;
+}
+
+/* Releases */
+.pressKitLink {
+  border-bottom: 4px solid #d6d8da;
+}
+.pressKitLink:active {
+  border-bottom: none;
+  position: relative;
+  top: 2px;
+}
+
+
+
+
+
+
+
+
+
+/* News */
+
+/* PressKit */
+
+/* ContactUs */
+
+/* Media */

@@ -1,0 +1,54 @@
+.numberOne .container {
+    border-bottom: 2px solid #e5e5e5;
+}
+.eng-test .container {
+    border: none;
+}
+
+.numberOne h2 {
+    color: #3c3c3c;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0 0 25px;
+}
+.numberOne a {
+    text-decoration: underline;
+}
+.hide-underline {
+    text-decoration: none !important;
+}
+
+.numberOne p {
+    color: #777;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    text-align: left;
+    font-size: 1.063rem;
+}
+.numberOne .textContent {
+    width: 48rem;
+}
+.eng-test .left-p-0 {
+    padding-left: 0 ;
+}
+
+
+@media (max-width: 1100px) {
+    .numberOne .textContent {
+        width: 43rem;
+    }
+  }
+  
+  @media (max-width: 980px) {
+    .numberOne .container {
+        display: block;
+    }
+    .numberOne .textContent {
+        width: auto;
+        text-align: center;
+    }
+    .numberOne .mr-7 {
+        margin-right: 0 ;
+    }
+  }
+  
