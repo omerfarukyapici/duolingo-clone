@@ -29,7 +29,7 @@ export const MobileNavbar = () => {
                     </div>
 
                     <div className="pt-1">
-                        <a href="#/" className="flex m-2.5 text-[#afafaf] hover:text-[#878585] font-bold">
+                        <a href="#/learn" className="flex m-2.5 text-[#afafaf] hover:text-[#878585] font-bold">
                             <img className="w-[3rem] pt-1" alt='' src={userİmg} />
                         </a>
                     </div>
