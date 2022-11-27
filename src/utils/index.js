@@ -1,0 +1,1 @@
+export const toTop = () => window.scrollTo(window.x === 0, window.y === 0); 
