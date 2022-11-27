@@ -29,5 +29,3 @@ Pages =
     <li>/shop</li>
     <li>/action</li>
 </ul>
-
-https://omerfarukyapici.github.io/duolingo-clone/#/
