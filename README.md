@@ -29,3 +29,5 @@ Pages =
     <li>/shop</li>
     <li>/action</li>
 </ul>
+
+https://duolingo-clone.netlify.app/#/
