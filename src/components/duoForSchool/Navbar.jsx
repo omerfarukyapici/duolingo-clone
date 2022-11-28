@@ -1,16 +1,7 @@
-import logo from './duoForSchoolİmg/logo.svg';
-import burgerNav from './duoForSchoolİmg/burgerNav.svg';
-import './DuoForSchool.css';
+import logo from '../../assets/img/duoForSchool/logo.svg';
+import burgerNav from '../../assets/img/duoForSchool/burgerNav.svg';
 
-/* 
-
-Variables in JavaScript = let, const, var.
-Variables in React = state.
-İf you want to use variable in react you have to use useState.
-
-*/
-
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
 
@@ -18,16 +9,18 @@ const Navbar = () => {
 
     const [burgerMenu, setBurgerMenu] = useState(false);
 
-    const scrollNavbar = () => {
-        if (window.pageYOffset > 500) {
-             setShowNavbar(true)
+    useEffect(() => {
+        const scrollNavbar = () => {
+            if (window.pageYOffset > 500) {
+                setShowNavbar(true)
 
-        } else {
-            setShowNavbar(false)
+            } else {
+                setShowNavbar(false)
+            }
         }
-    }
+        window.addEventListener('scroll', scrollNavbar)
+    }, [])
 
-    window.addEventListener('scroll', scrollNavbar)
 
     return (
 

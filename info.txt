@@ -1,5 +1,9 @@
+--------------------- Todo ---------------------
 - Css files and responsive
 - buttons css
 - map actions
 - spaces
 - state management?
+
+--------------------- Bugs ---------------------
+- DuoForSchool page header 

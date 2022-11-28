@@ -1,7 +1,5 @@
-import logo from './duoForSchoolİmg/logo.svg';
-import headerİmg from './duoForSchoolİmg/headerİmg.svg';
-import './DuoForSchool.css';
-
+import logo from '../../assets/img/duoForSchool/logo.svg';
+import headerİmg from '../../assets/img/duoForSchool/headerİmg.svg';
 
 const Header = () => {
     return (

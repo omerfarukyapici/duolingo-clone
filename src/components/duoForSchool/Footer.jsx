@@ -1,6 +1,5 @@
-import './DuoForSchool.css';
-import FooterOne from './duoForSchoolİmg/footerBg.svg';
-import FooterTwo from './duoForSchoolİmg/footerBgTwo.svg'
+import FooterOne from '../../assets/img/duoForSchool/footerBg.svg';
+import FooterTwo from '../../assets/img/duoForSchool/footerBgTwo.svg'
 
 const Footer = () => {
     return (

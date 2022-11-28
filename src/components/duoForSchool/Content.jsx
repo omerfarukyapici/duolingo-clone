@@ -1,6 +1,6 @@
-import contentOne from './duoForSchoolİmg/contentOne.svg';
-import contentTwo from './duoForSchoolİmg/contentTwo.svg';
-import contentThree from './duoForSchoolİmg/contentThree.svg';
+import contentOne from "../../assets/img/duoForSchool/contentOne.svg"
+import contentTwo from '../../assets/img/duoForSchool/contentTwo.svg';
+import contentThree from '../../assets/img/duoForSchool/contentThree.svg';
 
 const Content = () => {
     return (
