@@ -1,8 +1,7 @@
-import navOne from '../Learnİmg/navOne.svg';
-import navTwo from '../Learnİmg/navTwo.svg';
-import navFour from '../Learnİmg/navFour.svg';
-
-import userİmg from '../Learnİmg/userAvatar.svg';
+import navOne from "../../../assets/img/learn/navOne.svg"
+import navTwo from '../../../assets/img/learn/navTwo.svg';
+import navFour from '../../../assets/img/learn/navFour.svg';
+import userİmg from '../../../assets/img/learn/userAvatar.svg';
 
 export const MobileNavbar = () => {
     return (

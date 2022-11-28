@@ -1,13 +1,13 @@
 import { NavLinkComp } from "./NavLinkComp";
-import navOne from '../Learnİmg/navOne.svg';
-import navTwo from '../Learnİmg/navTwo.svg';
-import navFour from '../Learnİmg/navFour.svg';
-import america from '../../welcome_page/welcome_page_img/america.svg';
-import navFive from '../Learnİmg/navFive.svg';
-import navSix from '../Learnİmg/navSix.svg';
-import navSeven from '../Learnİmg/navSeven.svg';
-import navEight from '../Learnİmg/navEight.svg';
-import userİmg from '../Learnİmg/medium.jpeg';
+import navOne from '../../../assets/img/learn/navOne.svg';
+import navTwo from '../../../assets/img/learn/navTwo.svg';
+import navFour from '../../../assets/img/learn/navFour.svg';
+import america from "../../../assets/img/welcome/america.svg"
+import navFive from '../../../assets/img/learn/navFive.svg';
+import navSix from '../../../assets/img/learn/navSix.svg';
+import navSeven from '../../../assets/img/learn/navSeven.svg';
+import navEight from '../../../assets/img/learn/navEight.svg';
+import userİmg from '../../../assets/img/learn/medium.jpeg';
 
 
 import './Components.css';
@@ -39,31 +39,6 @@ export const Navbar = () => {
                             </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                             <NavLinkComp
                                 navLinkCompStyle={"showFeatures m-2.5 text-[#afafaf] hover:text-[#878585]"}
                                 linkİmgStyle={"w-[2.2rem] pt-1"}
@@ -86,11 +61,6 @@ export const Navbar = () => {
                                 navFive={"hidden"}
                                 navSix={"hidden"}
                             />
-
-
-
-
-
 
                         </div>
 

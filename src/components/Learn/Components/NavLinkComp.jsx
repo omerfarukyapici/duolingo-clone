@@ -1,16 +1,15 @@
 import './Components.css';
 import { useState } from 'react';
 
-import navFiveİmg from '../Learnİmg/lingot.svg';
-import checkİmg from '../Learnİmg/checkİcon.svg';
-import lit from '../Learnİmg/lit.svg';
-import crown from '../Learnİmg/navSix.svg';
-import navTwoİmg from '../Learnİmg/navTwoİmg.svg';
-import en from '../../welcome_page/welcome_page_img/america.svg';
-
-import ping from '../Learnİmg/ping.svg';
-import world from '../Learnİmg/world.svg';
-import book from '../Learnİmg/book.svg';
+import navFiveİmg from "../../../assets/img/learn/lingot.svg"
+import checkİmg from '../../../assets/img/learn/checkİcon.svg';
+import lit from '../../../assets/img/learn/lit.svg';
+import crown from '../../../assets/img/learn/navSix.svg';
+import navTwoİmg from '../../../assets/img/learn/navTwoİmg.svg';
+import en from "../../../assets/img/welcome/america.svg";
+import ping from '../../../assets/img/learn/ping.svg';
+import world from '../../../assets/img/learn/world.svg';
+import book from '../../../assets/img/learn/book.svg';
 
 
 export const NavLinkComp = ({

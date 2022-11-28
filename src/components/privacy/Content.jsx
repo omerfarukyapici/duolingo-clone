@@ -1,5 +1,3 @@
-/* Only Tailwind */
-
 const Content = () => {
     return (
         <div className="flex justify-center px-2 sm:px-0">
@@ -32,19 +30,6 @@ const Content = () => {
                         we are committed to cooperating with European data protection authorities (DPAs) and comply with the advice
                         given by such authorities with regard to human resources data transferred from Europe in the context of the employment relationship.
                     </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                     <li className="text-[#3c3c3c] text-[18px] mb-[10px] font-bold list-decimal">Information We Collect</li>
                     <p className="text-[#999] mb-[18px] text-[17px]">
@@ -418,62 +403,6 @@ const Content = () => {
                         for purposes such as understanding or improving the service.
                     </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <li className="text-[#3c3c3c] text-[18px] mb-[10px] font-bold list-decimal">Data subject rights and data retention</li>
 
                     <p className="text-[#999] mb-[18px] text-[17px]">
@@ -483,7 +412,6 @@ const Content = () => {
                     <p className="text-[#999] mb-[18px] text-[17px]">
                         You also have the following rights in relation to the personal data we hold about you, unless provided otherwise by local law:
                     </p>
-
 
                     <div className="pl-5">
                         <ul className="text-[17px] text-[#999] mb-[10px]">
@@ -538,8 +466,6 @@ const Content = () => {
                         on such sites or of their owners or operators except as disclosed on the Services. Any information submitted by you
                         directly to these third parties is subject to that third party’s privacy policy.
                     </p>
-
-
 
                     <li className="text-[#3c3c3c] text-[18px] mb-[10px] font-bold list-decimal">California privacy rights</li>
 

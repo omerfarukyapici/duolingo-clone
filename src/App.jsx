@@ -13,6 +13,7 @@ import DuoForSchool from "./pages/DuoForSchool";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import CommunityGuide from "./pages/CommunityGuide";
+import LearnStories from "./pages/LearnStories";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -29,7 +30,7 @@ import Press from "./components/about_us/Press/Press"; */
 
 /* Learn */
 /* import Learn from "./components/Learn/LearnPage/Learn";
-import LearnStories from "./components/Learn/StoriesPage/LearnStories";
+
 import Shop from "./components/Learn/ShopPage/Shop"; */
 
 
@@ -132,13 +133,13 @@ function App() {
 
 
           {/* Learn */}
+          <Route path="/learnstories">
+            <LearnStories />
+          </Route>
           {/* <Route path="/Learn">
               <Learn />
             </Route>
 
-            <Route path="/LearnStories">
-              <LearnStories />
-            </Route>
 
             <Route path="/Shop">
               <Shop />
