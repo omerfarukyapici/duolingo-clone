@@ -1,37 +1,37 @@
 import '../CoursesMain.css';
 
-import '../../../welcome_page/Header/Header.css';
+import "../../../../assets/styles/welcome.css";
 
-import logo from '../../../welcome_page/welcome_page_img/w_p_logo.svg';
-import ar from '../../../welcome_page/welcome_page_img/arabic.svg';
-import german from '../../../welcome_page/welcome_page_img/german.svg';
-import en from '../../../welcome_page/welcome_page_img/america.svg';
-import french from '../../../welcome_page/welcome_page_img/french.svg';
-import magyar from '../../../welcome_page/welcome_page_img/magyar.svg';
-import italiano from '../../../welcome_page/welcome_page_img/italiano.svg';
-import ko from '../../../welcome_page/welcome_page_img/ko.svg';
-import pl from '../../../welcome_page/welcome_page_img/polski.svg';
-import ro from '../../../welcome_page/welcome_page_img/rom.svg';
-import th from '../../../welcome_page/welcome_page_img/th.svg';
-import uk from '../../../welcome_page/welcome_page_img/uk.svg';
-import zhc from '../../../welcome_page/welcome_page_img/zh-c.svg';
-import cs from '../../../welcome_page/welcome_page_img/cs.svg';
-import el from '../../../welcome_page/welcome_page_img/el.svg';
-import es from '../../../welcome_page/welcome_page_img/es.svg';
-import hi from '../../../welcome_page/welcome_page_img/hi.svg';
-import id from '../../../welcome_page/welcome_page_img/id.svg';
-import ja from '../../../welcome_page/welcome_page_img/ja.svg';
-import nl from '../../../welcome_page/welcome_page_img/nl.svg';
-import pt from '../../../welcome_page/welcome_page_img/pt.svg';
-import ru from '../../../welcome_page/welcome_page_img/ru.svg';
-import tr from '../../../welcome_page/welcome_page_img/tr.svg';
-import vi from '../../../welcome_page/welcome_page_img/vi.svg';
-import row from '../../../welcome_page/welcome_page_img/row.svg';
+import logo from "../../../../assets/img/welcome/w_p_logo.svg";
+
+import ar from '../../../../assets/img/welcome/arabic.svg';
+import german from '../../../../assets/img/welcome/german.svg';
+import en from '../../../../assets/img/welcome/america.svg';
+import french from '../../../../assets/img/welcome/french.svg';
+import magyar from '../../../../assets/img/welcome/magyar.svg';
+import italiano from '../../../../assets/img/welcome/italiano.svg';
+import ko from '../../../../assets/img/welcome/ko.svg';
+import pl from '../../../../assets/img/welcome/polski.svg';
+import ro from '../../../../assets/img/welcome/rom.svg';
+import th from '../../../../assets/img/welcome/th.svg';
+import uk from '../../../../assets/img/welcome/uk.svg';
+import zhc from '../../../../assets/img/welcome/zh-c.svg';
+import cs from '../../../../assets/img/welcome/cs.svg';
+import el from '../../../../assets/img/welcome/el.svg';
+import es from '../../../../assets/img/welcome/es.svg';
+import hi from '../../../../assets/img/welcome/hi.svg';
+import id from '../../../../assets/img/welcome/id.svg';
+import ja from '../../../../assets/img/welcome/ja.svg';
+import nl from '../../../../assets/img/welcome/nl.svg';
+import pt from '../../../../assets/img/welcome/pt.svg';
+import ru from '../../../../assets/img/welcome/ru.svg';
+import tr from '../../../../assets/img/welcome/tr.svg';
+import vi from '../../../../assets/img/welcome/vi.svg';
+import row from '../../../../assets/img/welcome/row.svg';
 
 import humburgerMenu from '../../About_Us_İmg/hamburger-menu.svg';
 
-/* Useful Component */
-import LangComponent from '../../../welcome_page/LangSlider/langComponent';
+import LangComponent from '../../../welcome/langComponent';
 
 
 

@@ -7,6 +7,8 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 /* Welcome Page */
 import Welcome from "./pages/Welcome";
+import Abc from "./pages/Abc";
+import Stories from "./pages/Stories";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -27,8 +29,8 @@ import Terms from './components/Privacy_and_Terms/Terms/Terms'; */
 
 /* Products */
 /* import DuoForSchool from './components/products/DuoForSchool/DuoForSchool';
-import Stories from './components/products/Stories/Stories';*/
-import Abc from "./pages/Abc";
+*/
+
 
 /* Learn */
 /* import Learn from "./components/Learn/LearnPage/Learn";
@@ -126,10 +128,11 @@ function App() {
           {/* <Route path="/duoforschool">
               <DuoForSchool />
             </Route>
+          */}
 
-            <Route path="/stories">
-              <Stories />
-            </Route> */}
+          <Route path="/stories">
+            <Stories />
+          </Route>
 
 
 
