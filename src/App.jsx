@@ -10,6 +10,7 @@ import Welcome from "./pages/Welcome";
 import Abc from "./pages/Abc";
 import Stories from "./pages/Stories";
 import DuoForSchool from "./pages/DuoForSchool";
+import Terms from "./pages/Terms";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -26,7 +27,7 @@ import Press from "./components/about_us/Press/Press"; */
 /* Privacy And Terms */
 /* import Privacy from './components/Privacy_and_Terms/Privacy/Privacy';
 import CommunityGuide from './components/Privacy_and_Terms/CommunityGuide/CommunityGuideMain';
-import Terms from './components/Privacy_and_Terms/Terms/Terms'; */
+
 
 /* Products */
 
@@ -114,9 +115,10 @@ function App() {
               <Privacy />
             </Route>
 
-            <Route path="/terms">
-              <Terms />
-            </Route> */}
+          */}
+          <Route path="/terms">
+            <Terms />
+          </Route>
 
 
 
