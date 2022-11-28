@@ -1,7 +1,6 @@
-import monkeyGif from '../ProductsGifs/monkey.gif';
-import logo from '../Productsİmg/abcLogo.svg';
-import appleİcon from '../Productsİmg/appleİcon.svg';
-import '../Abc/Abc.css';
+import monkeyGif from '../../assets/img/abc/monkey.gif';
+import logo from '../../assets/img/abc/abcLogo.svg';
+import appleİcon from '../../assets/img/abc/appleİcon.svg';
 
 
 const Header = () => {

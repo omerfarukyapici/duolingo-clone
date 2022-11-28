@@ -1,5 +1,4 @@
-import characters from '../Productsİmg/characters.svg';
-import './Abc.css';
+import characters from '../../assets/img/abc/characters.svg';
 
 const Printable = () => {
 

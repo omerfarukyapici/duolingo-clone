@@ -27,8 +27,8 @@ import Terms from './components/Privacy_and_Terms/Terms/Terms'; */
 
 /* Products */
 /* import DuoForSchool from './components/products/DuoForSchool/DuoForSchool';
-import Stories from './components/products/Stories/Stories';
-import Abc from './components/products/Abc/Abc'; */
+import Stories from './components/products/Stories/Stories';*/
+import Abc from "./pages/Abc";
 
 /* Learn */
 /* import Learn from "./components/Learn/LearnPage/Learn";
@@ -43,21 +43,21 @@ import Action from './components/Action/Action';
 
 
 function App() {
-  
+
 
   return (
     <div className="App">
       <Router>
-          <Switch>
+        <Switch>
 
-            {/* Home Page */}
-            <Route exact path="/">
-              <Welcome />
-            </Route>
+          {/* Home Page */}
+          <Route exact path="/">
+            <Welcome />
+          </Route>
 
 
-            {/* About Us */}
-            {/* <Route path="/efficacy">
+          {/* About Us */}
+          {/* <Route path="/efficacy">
               <Efficacy />
             </Route>
 
@@ -76,9 +76,9 @@ function App() {
 
 
 
-            {/* BUİLDİNG PAGES */}
+          {/* BUİLDİNG PAGES */}
 
-            {/* <Route path="/press">
+          {/* <Route path="/press">
               <Press />
             </Route>
 
@@ -103,8 +103,8 @@ function App() {
 
 
 
-            {/* Privacy And Terms */}
-            {/* <Route path="/communityguide">
+          {/* Privacy And Terms */}
+          {/* <Route path="/communityguide">
               <CommunityGuide />
             </Route>
 
@@ -118,12 +118,12 @@ function App() {
 
 
 
-            {/* Products */}
-            {/* <Route path="/abc">
-              <Abc />
-            </Route>
+          {/* Products */}
+          <Route path="/abc">
+            <Abc />
+          </Route>
 
-            <Route path="/duoforschool">
+          {/* <Route path="/duoforschool">
               <DuoForSchool />
             </Route>
 
@@ -133,8 +133,8 @@ function App() {
 
 
 
-            {/* Learn */}
-            {/* <Route path="/Learn">
+          {/* Learn */}
+          {/* <Route path="/Learn">
               <Learn />
             </Route>
 
@@ -147,16 +147,16 @@ function App() {
             </Route> */}
 
 
-            {/* Action */}
+          {/* Action */}
 
-            {/* <Route path="/Action">
+          {/* <Route path="/Action">
               <Action />
             </Route> */}
 
 
 
-          </Switch>
-          
+        </Switch>
+
       </Router>
     </div>
   );

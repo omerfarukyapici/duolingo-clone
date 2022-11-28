@@ -1,6 +1,5 @@
-import footerApple from '../Productsİmg/footerAppleİcon.svg';
-import abcDuo from '../Productsİmg/f-abc.svg';
-import './Abc.css';
+import footerApple from "../../assets/img/abc/footerAppleİcon.svg";
+import abcDuo from '../../assets/img/abc/f-abc.svg';
 
 const Footer = () => {
     return (
@@ -31,11 +30,9 @@ const Footer = () => {
                     </div>
                 </div>
 
-
-
                 <div className="footer-Nav flex justify-center py-[3rem] px-[1rem]">
                     <ul className="flex flex-wrap md:text-center text-[15px] font-bold">
-                        <li className="m-[6px]" ><a className="m-[12px] text-white opacity-80  hover:opacity-100" href="#/">DUOLINGO</a></li>
+                        <li className="m-[6px]"><a className="m-[12px] text-white opacity-80  hover:opacity-100" href="#/">DUOLINGO</a></li>
                         <li className="m-[6px]"><a className="m-[12px] text-white opacity-80  hover:opacity-100" href="#/duoaboutus">ABOUT</a></li>
                         <li className="m-[6px]"><a className="m-[12px] text-white opacity-80  hover:opacity-100" href="#/career">CAREERS</a></li>
                         <li className="m-[6px]"><a className="m-[12px] text-white opacity-80  hover:opacity-100" href="#/">APPS</a></li>

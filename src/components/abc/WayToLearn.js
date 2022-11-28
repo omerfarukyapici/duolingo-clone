@@ -1,7 +1,6 @@
-import '../Abc/Abc.css';
-import interactiveGif from '../ProductsGifs/interactive.gif';
-import lessonsGif from '../ProductsGifs/lessons.gif';
-import gamesGif from '../ProductsGifs/games.gif';
+import interactiveGif from '../../assets/img/abc/interactive.gif';
+import lessonsGif from '../../assets/img/abc/lessons.gif';
+import gamesGif from '../../assets/img/abc/games.gif';
 
 import React from "react";
 import Slider from "react-slick";
@@ -16,7 +15,6 @@ const WayToLearn = () => {
         slidesToScroll: 1,
         width: 100
     };
-
 
     return (
         <div className="abc-wayToLearn flex justify-center pt-[5rem] px-8">
@@ -83,7 +81,6 @@ const WayToLearn = () => {
 
 
                 <div className='flex justify-center gifsSlider'>
-                    
                     <div className='w-[300px] sliderWidth'>
                         <Slider {...settings}>
                             <div className='px-4 py-2'>
@@ -118,10 +115,7 @@ const WayToLearn = () => {
                         </Slider>
                     </div>
                 </div>
-
             </div>
-
-
         </div>
     );
 }

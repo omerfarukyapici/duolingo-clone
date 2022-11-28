@@ -1,7 +1,6 @@
-import abcimg from '../Productsİmg/abcLogo.svg';
-import appleİcon from '../Productsİmg/appleİcon.svg';
+import abcimg from '../../assets/img/abc/abcLogo.svg';
+import appleİcon from '../../assets/img/abc/appleİcon.svg';
 
-import './Abc.css';
 
 const Navbar = () => {
     return (
