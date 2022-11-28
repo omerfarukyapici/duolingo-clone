@@ -12,6 +12,7 @@ import Stories from "./pages/Stories";
 import DuoForSchool from "./pages/DuoForSchool";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
+import CommunityGuide from "./pages/CommunityGuide";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -25,13 +26,6 @@ import ReSearch from "./components/about_us/ReSearch/ReSearch";
 import Efficacy from './components/about_us/Efficacy/EfficacyMain';
 import Press from "./components/about_us/Press/Press"; */
 
-/* Privacy And Terms */
-
-/* import CommunityGuide from './components/Privacy_and_Terms/CommunityGuide/CommunityGuideMain'; */
-
-/* Products */
-
-
 
 /* Learn */
 /* import Learn from "./components/Learn/LearnPage/Learn";
@@ -41,8 +35,8 @@ import Shop from "./components/Learn/ShopPage/Shop"; */
 
 
 /* Action */
-/* import Action from './components/Action/Action';
- */
+/* import Action from './components/Action/Action';*/
+
 
 
 function App() {
@@ -107,10 +101,10 @@ function App() {
 
 
           {/* Privacy And Terms */}
-          {/* <Route path="/communityguide">
-              <CommunityGuide />
-            </Route>
-          */}
+          <Route path="/communityguide">
+            <CommunityGuide />
+          </Route>
+
 
           <Route path="/privacy">
             <Privacy />
