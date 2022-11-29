@@ -1,4 +1,4 @@
-import './Components.css';
+import "../../../assets/styles/globalLearn.css"
 import { useState } from 'react';
 
 import navFiveİmg from "../../../assets/img/learn/lingot.svg"

@@ -1,13 +1,11 @@
-import { Footer } from "../Learn/Components/Footer";
-import { LeagueCompOne } from "../Learn/Components/LeagueCompOne";
-import { LeagueCompTwo } from "../Learn/Components/LeagueCompTwo";
-import { ShopPowerUp } from "../Learn/Components/ShopPowerUp";
+import { Footer } from "../global/learn/Footer";
+import { LeagueCompOne } from "../global/learn/LeagueCompOne";
+import { LeagueCompTwo } from "../global/learn/LeagueCompTwo";
+import { ShopPowerUp } from "../global/learn/ShopPowerUp";
 
 import PowerOne from "../../assets/img/shop/freeze.svg"
 import PowerTwo from '../../assets/img/shop/calendar.svg';
 import lingot from '../../assets/img/shop/lingot.svg';
-
-import "../../assets/styles/shop.css";
 
 export const Content = () => {
     return (

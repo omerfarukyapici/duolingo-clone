@@ -1,27 +1,20 @@
-import { LearnButtonComp } from "../Components/LearnButtonComp";
-import { TrainingComp } from "../Components/TrainingComp";
-import { Footer } from '../Components/Footer';
+import { LearnButtonComp } from "../global/learn/LearnButtonComp";
+import { TrainingComp } from "../global/learn/TrainingComp";
+import { Footer } from '../global/learn/Footer';
 
 
-import '../Components/Components.css';
+import "../../assets/styles/globalLearn.css";
 
-/* Main Props İmg */
-import egg from '../Learnİmg/fish.svg';
-import { LeagueCompOne } from "../Components/LeagueCompOne";
-import { LeagueCompTwo } from "../Components/LeagueCompTwo";
+import egg from "../../assets/img/learn/fish.svg";
+import { LeagueCompOne } from "../global/learn/LeagueCompOne";
+import { LeagueCompTwo } from "../global/learn/LeagueCompTwo";
 
 
 export const Content = () => {
 
-
-
     return (
         <div className="learnPage-Content flex justify-center pt-[4.5rem] break-words">
             <div className="flex">
-
-
-
-
 
                 <div className="p-2 flex justify-center w-auto sm:w-[600px] lg:w-[736px]">
 

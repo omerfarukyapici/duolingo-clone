@@ -1,7 +1,7 @@
-import { Navbar } from "../components/Learn/Components/Navbar";
+import { Navbar } from "../components/global/learn/Navbar";
 import { Content } from "../components/learnStories/Content";
-import { Footer } from "../components/Learn/Components/Footer";
-import { MobileNavbar } from "../components/Learn/Components/MobileNavbar";
+import { Footer } from "../components/global/learn/Footer";
+import { MobileNavbar } from "../components/global/learn/MobileNavbar";
 
 import "../assets/styles/learnStories.css";
 import { useEffect } from "react";

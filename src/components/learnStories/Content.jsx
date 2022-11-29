@@ -1,5 +1,4 @@
-/* import { TrainingStoriesComp } from "../Components/TrainingStoriesComp"; */
-import { TrainingStoriesComp } from "../Learn/Components/TrainingStoriesComp";
+import { TrainingStoriesComp } from "../../components/global/learn/TrainingStoriesComp";
 
 import One from "../../assets/img/learnStories/1.svg";
 import Two from '../../assets/img/learnStories/2.svg';

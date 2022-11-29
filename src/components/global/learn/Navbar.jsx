@@ -10,7 +10,7 @@ import navEight from '../../../assets/img/learn/navEight.svg';
 import userİmg from '../../../assets/img/learn/medium.jpeg';
 
 
-import './Components.css';
+import "../../../assets/styles/globalLearn.css";
 
 export const Navbar = () => {
     return (

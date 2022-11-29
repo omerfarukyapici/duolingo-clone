@@ -15,6 +15,7 @@ import Privacy from "./pages/Privacy";
 import CommunityGuide from "./pages/CommunityGuide";
 import LearnStories from "./pages/LearnStories";
 import Shop from "./pages/Shop";
+import Learn from "./pages/Learn";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -29,9 +30,7 @@ import Efficacy from './components/about_us/Efficacy/EfficacyMain';
 import Press from "./components/about_us/Press/Press"; */
 
 
-/* Learn */
-/* import Learn from "./components/Learn/LearnPage/Learn";
-*/
+
 
 
 
@@ -138,11 +137,10 @@ function App() {
           <Route path="/learnstories">
             <LearnStories />
           </Route>
-          {/* 
+
           <Route path="/Learn">
-              <Learn />
-            </Route>
-          */}
+            <Learn />
+          </Route>
 
 
           <Route path="/shop">

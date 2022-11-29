@@ -1,13 +1,12 @@
 import { Navbar } from "../components/global/learn/Navbar";
-import { Content } from "../components/shop/Content"
+import {Content} from "../components/learn/Content";
 import { MobileNavbar } from "../components/global/learn/MobileNavbar";
-import "../assets/styles/shop.css";
 
 import { useEffect } from "react";
 import { toTop } from "../utils";
 
-const Shop = () => {
-    useEffect(() => { toTop() });
+const Learn = () => {
+    useEffect(() => { toTop() })
 
     return (
         <div>
@@ -17,4 +16,4 @@ const Shop = () => {
         </div>
     );
 }
-export default Shop;
+export default Learn;
