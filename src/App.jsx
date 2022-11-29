@@ -14,6 +14,7 @@ import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import CommunityGuide from "./pages/CommunityGuide";
 import LearnStories from "./pages/LearnStories";
+import Shop from "./pages/Shop";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -30,8 +31,9 @@ import Press from "./components/about_us/Press/Press"; */
 
 /* Learn */
 /* import Learn from "./components/Learn/LearnPage/Learn";
+*/
 
-import Shop from "./components/Learn/ShopPage/Shop"; */
+
 
 
 
@@ -136,14 +138,16 @@ function App() {
           <Route path="/learnstories">
             <LearnStories />
           </Route>
-          {/* <Route path="/Learn">
+          {/* 
+          <Route path="/Learn">
               <Learn />
             </Route>
+          */}
 
 
-            <Route path="/Shop">
-              <Shop />
-            </Route> */}
+          <Route path="/shop">
+            <Shop />
+          </Route>
 
 
           {/* Action */}

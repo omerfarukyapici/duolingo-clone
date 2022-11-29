@@ -1,4 +1,4 @@
-import lingotİmg from '../ShopPage/Shopİmg/lingot.svg';
+import lingotImg from "../../../assets/img/shop/lingot.svg";
 
 export const ShopPowerUp = ({
     img,
@@ -22,7 +22,7 @@ export const ShopPowerUp = ({
                 <a href="#/shop" className='shopPowerUpLink flex justify-center bg-white rounded-[.7rem] w-[8rem] py-2 border-solid border-[#d7d4d4] border-[2px]'>
                     <div className='flex text-[#ff4b4b] font-bold'>
                         <p>PRİCE:</p>
-                        <img className='mx-1 w-[1.2rem]' src={lingotİmg} alt="" />
+                        <img className='mx-1 w-[1.2rem]' src={lingotImg} alt="" />
                         <p>{lingotNumber}</p>
                     </div>
                 </a>

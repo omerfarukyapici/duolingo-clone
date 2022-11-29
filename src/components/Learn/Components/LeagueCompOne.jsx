@@ -1,4 +1,4 @@
-import box from '../Learnİmg/box.svg';
+import box from "../../../assets/img/learn/box.svg";
 
 export const LeagueCompOne = () => {
     return(

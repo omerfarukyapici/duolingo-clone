@@ -223,7 +223,7 @@
 .learnBtnStyleFour {
   border: solid 2px rgb(228, 224, 224);
   box-shadow: 0px 3px 2px rgb(201, 198, 198);
-  background-image: url("../Learnİmg/dumbleTwo.svg");
+  background-image: url("../../../assets/img/learn/dumbleTwo.svg");
   background-repeat: no-repeat;
   background-size: 2.5rem;
   background-position: center;
@@ -237,7 +237,7 @@
 }
 
 .scaleFeature .learnBtnStyleThree {
-  background-image: url("../Learnİmg/key.svg");
+  background-image: url("../../../assets/img/learn/key.svg");
   background-repeat: no-repeat;
   background-size: 1.5rem;
   background-position: center;

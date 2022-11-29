@@ -1,19 +1,10 @@
 import { useState } from 'react';
+import crown from "../../../assets/img/learn/navSix.svg"
 
-import crown from '../Learnİmg/navSix.svg';
 import { LearnButtonComp } from './LearnButtonComp';
 
 export const TrainingComp = ({
-    /* Main Props */
     lessonİmg, lessonName,
-
-    /* Features Props */
-
-    /* Hover Props */
-
-    /* Button Props */
-
-
 }) => {
 
     const [showFeatures, setShowFeatures] = useState(false);
@@ -22,11 +13,11 @@ export const TrainingComp = ({
         <div className="p-4 ">
 
             <button className='lessonShowBtn' onClick={() => {
-                
+
                 setShowFeatures(!showFeatures);
 
             }} >
-                
+
                 {/* Rotate img with hover */}
                 <div className='lessonİmgDivParent'>
                     <div className='lessonİmgDiv'>
@@ -44,8 +35,6 @@ export const TrainingComp = ({
 
             {/* Show Features Part with Click Event */}
             {
-                
-
                 showFeatures ?
 
                     <div className='scaleFeature z-[40] showFeatures  rounded-[15px] absolute p-[16px] bg-[#1cb0f6] mt-[1rem] -ml-[6.09999rem] lg:-ml-[5.9rem] w-[300px]' >
@@ -95,8 +84,6 @@ export const TrainingComp = ({
                     : null
 
             }
-
-
         </div>
     );
 }

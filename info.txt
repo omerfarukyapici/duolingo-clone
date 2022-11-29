@@ -4,6 +4,8 @@
 - map actions
 - spaces
 - state management?
+- link names
+- route names
 
 --------------------- Bugs ---------------------
 - DuoForSchool page header 

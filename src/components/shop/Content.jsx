@@ -1,20 +1,18 @@
-import { Footer } from "../Components/Footer";
-import { LeagueCompOne } from "../Components/LeagueCompOne";
-import { LeagueCompTwo } from "../Components/LeagueCompTwo";
-import { ShopPowerUp } from "../Components/ShopPowerUp";
+import { Footer } from "../Learn/Components/Footer";
+import { LeagueCompOne } from "../Learn/Components/LeagueCompOne";
+import { LeagueCompTwo } from "../Learn/Components/LeagueCompTwo";
+import { ShopPowerUp } from "../Learn/Components/ShopPowerUp";
 
-import PowerOne from '../ShopPage/Shopİmg/freeze.svg';
-import PowerTwo from '../ShopPage/Shopİmg/calendar.svg';
-import lingot from '../ShopPage/Shopİmg/lingot.svg';
+import PowerOne from "../../assets/img/shop/freeze.svg"
+import PowerTwo from '../../assets/img/shop/calendar.svg';
+import lingot from '../../assets/img/shop/lingot.svg';
 
-import './Shop.css';
+import "../../assets/styles/shop.css";
 
 export const Content = () => {
     return (
         <div className="learnPage-Content flex justify-center pt-[5rem] ">
             <div className="flex ">
-
-
 
                 <div className="p-2 flex justify-center w-full md:w-[740px] lg:w-[736px] ">
                     <div>
@@ -62,10 +60,6 @@ export const Content = () => {
                     </div>
 
                 </div>
-
-
-
-
 
                 <div className="hidden lg:block w-2/4  xl:w-[380px] pt-5 ">
                     <div>

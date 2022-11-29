@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../StoriesPage/LearnStories.css';
+import "../../../assets/styles/learnStories.css";
 
 export const TrainingStoriesComp = ({
     /* General Props */
@@ -46,9 +46,6 @@ export const TrainingStoriesComp = ({
 
                         : null
                 }
-
-
-
             </div>
         </div>
 

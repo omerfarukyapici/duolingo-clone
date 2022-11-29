@@ -1,6 +1,4 @@
-export const Footer = ({
-    footerStyle
-}) => {
+export const Footer = ({ footerStyle }) => {
     return (
         <div className={footerStyle}>
             <ul className="LearnFooter flex justify-center flex-wrap">

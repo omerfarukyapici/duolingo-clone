@@ -1,0 +1,20 @@
+.shopPowerUpLink:hover {
+    background-color: #e5e5e5;
+    transition: .3s;
+}
+.shopPowerUpLink:focus {
+    border-bottom: 2px solid #d7d4d4;
+    position: relative;
+    top: 2px;
+}
+
+.shopPowerUpLink {
+    border-bottom: 4px solid #d7d4d4 ;
+}
+
+@media (max-width: 1023px) {
+    .hideShopFooter {
+        display: none;
+    }
+}
+
