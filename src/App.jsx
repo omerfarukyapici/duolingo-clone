@@ -16,6 +16,7 @@ import CommunityGuide from "./pages/CommunityGuide";
 import LearnStories from "./pages/LearnStories";
 import Shop from "./pages/Shop";
 import Learn from "./pages/Learn";
+import ReSearch from "./pages/ReSearch";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -25,16 +26,8 @@ import CareerFaq from "./components/about_us/Career/CareerFaq";
 
 import DuoAboutUs from "./components/about_us/DuoAboutUs/DuoAboutUs";
 import CoursesMain from './components/about_us/Courses/CoursesMain';
-import ReSearch from "./components/about_us/ReSearch/ReSearch";
 import Efficacy from './components/about_us/Efficacy/EfficacyMain';
 import Press from "./components/about_us/Press/Press"; */
-
-
-
-
-
-
-
 
 /* Action */
 /* import Action from './components/Action/Action';*/
@@ -56,6 +49,9 @@ function App() {
 
 
           {/* About Us */}
+          <Route path="/research">
+            <ReSearch />
+          </Route>
           {/* <Route path="/efficacy">
               <Efficacy />
             </Route>
@@ -67,10 +63,7 @@ function App() {
             <Route path="/coursemain">
               <CoursesMain />
             </Route>
-
-            <Route path="/research">
-              <ReSearch />
-            </Route> */}
+          */}
 
 
 

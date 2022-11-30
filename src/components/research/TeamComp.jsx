@@ -1,6 +1,6 @@
-import './ReSearch.css';
+import "../../assets/styles/research.css";
 
-const TeamComp = ({ tname, posit, timg }) => {
+export const TeamComp = ({ tname, posit, timg }) => {
     return (
         <div className="TeamComp ">
             <div >
@@ -17,5 +17,3 @@ const TeamComp = ({ tname, posit, timg }) => {
         </div>
     );
 }
-
-export default TeamComp;

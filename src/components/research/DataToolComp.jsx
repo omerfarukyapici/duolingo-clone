@@ -1,6 +1,6 @@
-import './ReSearch.css';
+import "../../assets/styles/research.css";
 
-const DataToolComp = ({ title, content, dataLink, icon, iname, icontwo, inametwo, iconCn, dataLinkTwo }) => {
+export const DataToolComp = ({ title, content, dataLink, icon, iname, icontwo, inametwo, iconCn, dataLinkTwo }) => {
     return (
         <div className="dataToolComp w-auto lg:w-[485px] p-8 m-5 lg:m-4 bg-white ">
             <div className="py-2">
@@ -24,5 +24,3 @@ const DataToolComp = ({ title, content, dataLink, icon, iname, icontwo, inametwo
         </div>
     );
 }
-
-export default DataToolComp;

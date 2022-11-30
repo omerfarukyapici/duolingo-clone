@@ -1,9 +1,9 @@
-import JopComp from './JobComp';
-import './ReSearch.css';
+import { JopComp } from './JobComp';
+import "../../assets/styles/research.css";
 
-import top from './ReSearchİmg/triangle.svg';
+import top from '../../assets/img/research/triangle.svg';
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <div className="ReSearch-Footer py-[9rem] lg:py-[5rem] bg-[#27355b] flex justify-center">
             <div className="">
@@ -49,5 +49,3 @@ const Footer = () => {
         </div>
     );
 }
-
-export default Footer;

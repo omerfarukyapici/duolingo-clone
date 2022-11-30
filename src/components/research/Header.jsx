@@ -1,8 +1,8 @@
-import NavComponent from "./NavComponent";
-import HeaderLogo from './ReSearchİmg/researchLogo.svg';
-import './ReSearch.css';
+import { NavComponent } from "./NavComponent";
+import HeaderLogo from '../../assets/img/research/researchLogo.svg';
+import "../../assets/styles/research.css";
 
-const Header = () => {
+export const Header = () => {
     return (
         <section className=" ReSearch-Header flex justify-center pb-[1rem] md:pb-[6rem]">
             <div className="w-[1100px] px-6 lg:px-[5rem] pt-[22rem] md:pt-[30rem]">
@@ -43,5 +43,3 @@ const Header = () => {
         </section>
     );
 }
-
-export default Header;

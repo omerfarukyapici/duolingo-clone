@@ -1,27 +1,27 @@
-import PublicComp from "./PublicComp";
-import PubOne from './ReSearchİmg/publication-1.png';
-import PubTwo from './ReSearchİmg/publication-2.png';
-import PubThree from './ReSearchİmg/publication-3.png';
-import PubFour from './ReSearchİmg/publication-4.png';
-import PubFive from './ReSearchİmg/publication-5.png';
-import PubSix from './ReSearchİmg/publication-6.png';
-import PubSeven from './ReSearchİmg/publication-7.png';
-import PubEight from './ReSearchİmg/publication-8.png';
-import PubNine from './ReSearchİmg/publication-9.png';
-import PubTen from './ReSearchİmg/publication-10.png';
-import PubEleven from './ReSearchİmg/publication-11.png';
-import PubTwelve from './ReSearchİmg/publication-12.png';
-import PubThirteen from './ReSearchİmg/publication-13.png';
-import PubFourteen from './ReSearchİmg/publication-14.png';
-import PubFifteen from './ReSearchİmg/publication-15.png';
-import PubSixteen from './ReSearchİmg/publication-16.png';
-import PubSeventeen from './ReSearchİmg/publication-17.png';
-import PubEighteen from './ReSearchİmg/publication-18.png';
-import PubNineteen from './ReSearchİmg/publication-19.png';
-import PubTwenty from './ReSearchİmg/publication-20.png';
-import PubTwentyOne from './ReSearchİmg/publication-21.png';
+import {PublicComp} from "./PublicComp";
+import PubOne from '../../assets/img/research/publication-1.png';
+import PubTwo from '../../assets/img/research/publication-2.png';
+import PubThree from '../../assets/img/research/publication-3.png';
+import PubFour from '../../assets/img/research/publication-4.png';
+import PubFive from '../../assets/img/research/publication-5.png';
+import PubSix from '../../assets/img/research/publication-6.png';
+import PubSeven from '../../assets/img/research/publication-7.png';
+import PubEight from '../../assets/img/research/publication-8.png';
+import PubNine from '../../assets/img/research/publication-9.png';
+import PubTen from '../../assets/img/research/publication-10.png';
+import PubEleven from '../../assets/img/research/publication-11.png';
+import PubTwelve from '../../assets/img/research/publication-12.png';
+import PubThirteen from '../../assets/img/research/publication-13.png';
+import PubFourteen from '../../assets/img/research/publication-14.png';
+import PubFifteen from '../../assets/img/research/publication-15.png';
+import PubSixteen from '../../assets/img/research/publication-16.png';
+import PubSeventeen from '../../assets/img/research/publication-17.png';
+import PubEighteen from '../../assets/img/research/publication-18.png';
+import PubNineteen from '../../assets/img/research/publication-19.png';
+import PubTwenty from '../../assets/img/research/publication-20.png';
+import PubTwentyOne from '../../assets/img/research/publication-21.png';
 
-const Publications = () => {
+export const Publications = () => {
     return (
         <section className="pt-[4rem] pb-[3rem] px-6">
             <div className=" flex justify-left lg:justify-center">
@@ -247,5 +247,3 @@ const Publications = () => {
         </section>
     );
 }
-
-export default Publications;

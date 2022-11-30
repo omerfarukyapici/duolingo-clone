@@ -1,6 +1,6 @@
-import './ReSearch.css';
+import "../../assets/styles/research.css";
 
-const PublicComp = ({ imgLink, linkAdress, linkName, names, aDate }) => {
+export const PublicComp = ({ imgLink, linkAdress, linkName, names, aDate }) => {
     return (
         <div className="px-0 lg:px-[5rem] block lg:flex justify-between">
             <div className="PublicİmgHover hidden lg:flex border-solid border-[#d9d9d9] border-[1px] rounded-2xl justify-center">
@@ -16,5 +16,3 @@ const PublicComp = ({ imgLink, linkAdress, linkName, names, aDate }) => {
         </div>
     );
 }
-
-export default PublicComp;

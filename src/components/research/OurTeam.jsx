@@ -1,90 +1,61 @@
-import TeamComp from "./teamComp";
+import { TeamComp } from "./TeamComp";
 
-/* Team */
-import one from './ReSearchİmg/burr-settles.jpg';
-import two from './ReSearchİmg/andre-horie.jpg';
-import three from './ReSearchİmg/bozena-pajak.jpg';
-import four from './ReSearchİmg/erin-gustafson.jpg';
-import five from './ReSearchİmg/chris-brust.jpg';
-import six from './ReSearchİmg/cindy-berger.jpg';
-
-
-
-import seven from './ReSearchİmg/angela-dicostanzo.jpg';
-import eight from './ReSearchİmg/cindy-blanco.jpg';
-import nine from './ReSearchİmg/lisa-bromberg.jpg';
-import ten from './ReSearchİmg/bill-mcdowell.jpg';
-import eleven from './ReSearchİmg/lowell-reade.jpg';
-import twelve from './ReSearchİmg/klinton-bicknell.jpg';
-
-
-
-
-import thirteen from './ReSearchİmg/will-monroe.jpg';
-import fourteen from './ReSearchİmg/geoff-laflair.jpg';
-import fifteen from './ReSearchİmg/hope-wilson.jpg';
-import sixteen from './ReSearchİmg/kevin-yancey.jpg';
-import seventeen from './ReSearchİmg/xiangying-jiang.jpg';
-import eighteen from './ReSearchİmg/jessie-becker.jpg';
-
-
-
-import nineteen from './ReSearchİmg/graham-arthur.jpg';
-import twenty from './ReSearchİmg/stephen-mayhew.jpg';
-import twentyone from './ReSearchİmg/meredith-mcdermott.jpg';
-import twentytwo from './ReSearchİmg/andrew-runge.jpg';
-import twentythree from './ReSearchİmg/connor-brem.jpg';
-import twentyfour from './ReSearchİmg/anna-savage.jpg';
-
-
-
-import twentyfive from './ReSearchİmg/emily-moline.jpg';
-import twentysix from './ReSearchİmg/ben-collier.jpg';
-import twentyseven from './ReSearchİmg/elizabeth-strong.jpg';
-import twentyeight from './ReSearchİmg/cory-wheeler.jpg';
-import twentynine from './ReSearchİmg/lauren-bilsky.jpg';
-import thirty from './ReSearchİmg/emma-gibson.jpg';
-
-
-
-
-import thirtyone from './ReSearchİmg/james-leow.jpg';
-import thirtytwo from './ReSearchİmg/danchen-yang.jpg';
-import thirtythree from './ReSearchİmg/isabel-deibel.jpg';
-import thirtyfour from './ReSearchİmg/elizabeth-onstwedder.jpg';
-import thirtyfive from './ReSearchİmg/kevin-lenzo.jpg';
-import thirtysix from './ReSearchİmg/mancy-liao.jpg';
-
+import one from '../../assets/img/research/burr-settles.jpg';
+import two from '../../assets/img/research/andre-horie.jpg';
+import three from '../../assets/img/research/bozena-pajak.jpg';
+import four from '../../assets/img/research/erin-gustafson.jpg';
+import five from '../../assets/img/research/chris-brust.jpg';
+import six from '../../assets/img/research/cindy-berger.jpg';
+import seven from '../../assets/img/research/angela-dicostanzo.jpg';
+import eight from '../../assets/img/research/cindy-blanco.jpg';
+import nine from '../../assets/img/research/lisa-bromberg.jpg';
+import ten from '../../assets/img/research/bill-mcdowell.jpg';
+import eleven from '../../assets/img/research/lowell-reade.jpg';
+import twelve from '../../assets/img/research/klinton-bicknell.jpg';
+import thirteen from '../../assets/img/research/will-monroe.jpg';
+import fourteen from '../../assets/img/research/geoff-laflair.jpg';
+import fifteen from '../../assets/img/research/hope-wilson.jpg';
+import sixteen from '../../assets/img/research/kevin-yancey.jpg';
+import seventeen from '../../assets/img/research/xiangying-jiang.jpg';
+import eighteen from '../../assets/img/research/jessie-becker.jpg';
+import nineteen from '../../assets/img/research/graham-arthur.jpg';
+import twenty from '../../assets/img/research/stephen-mayhew.jpg';
+import twentyone from '../../assets/img/research/meredith-mcdermott.jpg';
+import twentytwo from '../../assets/img/research/andrew-runge.jpg';
+import twentythree from '../../assets/img/research/connor-brem.jpg';
+import twentyfour from '../../assets/img/research/anna-savage.jpg';
+import twentyfive from '../../assets/img/research/emily-moline.jpg';
+import twentysix from '../../assets/img/research/ben-collier.jpg';
+import twentyseven from '../../assets/img/research/elizabeth-strong.jpg';
+import twentyeight from '../../assets/img/research/cory-wheeler.jpg';
+import twentynine from '../../assets/img/research/lauren-bilsky.jpg';
+import thirty from '../../assets/img/research/emma-gibson.jpg';
+import thirtyone from '../../assets/img/research/james-leow.jpg';
+import thirtytwo from '../../assets/img/research/danchen-yang.jpg';
+import thirtythree from '../../assets/img/research/isabel-deibel.jpg';
+import thirtyfour from '../../assets/img/research/elizabeth-onstwedder.jpg';
+import thirtyfive from '../../assets/img/research/kevin-lenzo.jpg';
+import thirtysix from '../../assets/img/research/mancy-liao.jpg';
+import thirtyseven from '../../assets/img/research/nora-gordon.jpg';
+import thirtyeight from '../../assets/img/research/sharon-wilkinson.jpg';
+import thirtynine from '../../assets/img/research/naveen-shankar.jpg';
+import forty from '../../assets/img/research/antony-kunnan.jpg';
+import fortyone from '../../assets/img/research/jackie-bialostozky.jpg';
+import fortytwo from '../../assets/img/research/lucy-portnoff.jpg';
+import fortythree from '../../assets/img/research/ramsey-cardwell.jpg';
+import fortyfour from '../../assets/img/research/alina-vondavier.jpg';
+import fortyfive from '../../assets/img/research/hannah-pileggi.jpg';
+import fortysix from '../../assets/img/research/yigal-attali.jpg';
+import fortyseven from '../../assets/img/research/audrey-kittredge.jpg';
+import fortyeight from '../../assets/img/research/ben-reuveni.jpg';
+import fortynine from '../../assets/img/research/jr-lockwood.jpg';
+import fifty from '../../assets/img/research/rich-forest.jpg';
+import fiftyone from '../../assets/img/research/mark-lock.jpg';
+import fiftytwo from '../../assets/img/research/lisa-frumkes.jpg';
+import fiftythree from '../../assets/img/research/will-belzak.jpg';
 
 
-
-import thirtyseven from './ReSearchİmg/nora-gordon.jpg';
-import thirtyeight from './ReSearchİmg/sharon-wilkinson.jpg';
-import thirtynine from './ReSearchİmg/naveen-shankar.jpg';
-import forty from './ReSearchİmg/antony-kunnan.jpg';
-import fortyone from './ReSearchİmg/jackie-bialostozky.jpg';
-import fortytwo from './ReSearchİmg/lucy-portnoff.jpg';
-
-
-
-import fortythree from './ReSearchİmg/ramsey-cardwell.jpg';
-import fortyfour from './ReSearchİmg/alina-vondavier.jpg';
-import fortyfive from './ReSearchİmg/hannah-pileggi.jpg';
-import fortysix from './ReSearchİmg/yigal-attali.jpg';
-import fortyseven from './ReSearchİmg/audrey-kittredge.jpg';
-import fortyeight from './ReSearchİmg/ben-reuveni.jpg';
-
-
-
-
-import fortynine from './ReSearchİmg/jr-lockwood.jpg';
-import fifty from './ReSearchİmg/rich-forest.jpg';
-import fiftyone from './ReSearchİmg/mark-lock.jpg';
-import fiftytwo from './ReSearchİmg/lisa-frumkes.jpg';
-import fiftythree from './ReSearchİmg/will-belzak.jpg';
-
-
-const OurTeam = () => {
+export const OurTeam = () => {
     return (
         <section className="flex justify-center pb-[5rem]">
             <div className="w-auto lg:w-[1030px] px-auto lg:px-[2rem] ">
@@ -382,5 +353,3 @@ const OurTeam = () => {
         </section>
     );
 }
-
-export default OurTeam;
