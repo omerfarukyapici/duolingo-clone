@@ -1,12 +1,10 @@
-import logo from '../Pressİmg/logo.svg';
-import '../Press.css';
-import NavComp from './NavComp';
+import logo from "../../assets/img/press/logo.svg";
+import "../../assets/styles/press.css";
+import { NavComp } from "./NavComp";
 
+import { useState } from 'react';
 
-
-import React, { useState } from 'react';
-
-const Navbar = () => {
+export const Navbar = () => {
 
     const [hmbrMenu, setHmbrMenu] = useState(false);
 
@@ -114,4 +112,3 @@ const Navbar = () => {
         </div>
     );
 }
-export default Navbar;

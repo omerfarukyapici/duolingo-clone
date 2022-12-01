@@ -4,25 +4,29 @@
   background-color: white;
   height: 4.5rem;
 }
-.NavComp  {
+
+.NavComp {
   color: #afafaf;
   font-size: 15px;
   font-weight: 500;
 }
+
 .NavComp:active {
   color: #1cb0f6;
   position: relative;
   border-bottom: 6px solid #1cb0f6;
   font-size: 15px;
 }
+
 .PressNavbar .hmbr {
-  color:#4b4b4b ;
+  color: #4b4b4b;
   font-size: 15px;
   font-weight: 700;
   padding: 1rem;
   padding-left: .6rem;
   border: 1px solid #e1e3e4;
 }
+
 .PressNavbar .hmbr:active {
   color: #1cb0f6;
 }
@@ -38,37 +42,41 @@
 }
 
 .PressNavbar .PressNavSocial .twitter {
-  background-image: url("Pressİmg/twitter.svg");
+  background-image: url("../img/press/twitter.svg");
 }
+
 .PressNavbar .PressNavSocial .twitter:hover {
-  background-image: url("./Pressİmg/twitterHover.svg");
+  background-image: url("../img/press/twitterHover.svg");
   transition: 0.5s;
   display: block;
 }
 
 .PressNavbar .PressNavSocial .instagram {
-  background-image: url("Pressİmg/instagram.svg");
+  background-image: url("../img/press/instagram.svg");
 }
+
 .PressNavbar .PressNavSocial .instagram:hover {
-  background-image: url("./Pressİmg/instagramHover.svg");
+  background-image: url("../img/press/instagramHover.svg");
   transition: 0.5s;
   display: block;
 }
 
 .PressNavbar .PressNavSocial .facebook {
-  background-image: url("Pressİmg/facebook.svg");
+  background-image: url("../img/press/facebook.svg");
 }
+
 .PressNavbar .PressNavSocial .facebook:hover {
-  background-image: url("./Pressİmg/facebookHover.svg");
+  background-image: url("../img/press/facebookHover.svg");
   transition: 0.5s;
   display: block;
 }
 
 .PressNavbar .PressNavSocial .linkedin {
-  background-image: url("Pressİmg/linkedin.svg");
+  background-image: url("../img/press/linkedin.svg");
 }
+
 .PressNavbar .PressNavSocial .linkedin:hover {
-  background-image: url("./Pressİmg/linkedinHover.svg");
+  background-image: url("../img/press/linkedinHover.svg");
   transition: 0.5s;
   display: block;
 }
@@ -82,7 +90,7 @@
 }
 
 .PressNavbar .humburgerMenu {
-  background-image: url('./Pressİmg/humİcon.svg');
+  background-image: url('../img/press/humİcon.svg');
   background-repeat: no-repeat;
   background-size: contain;
   width: 2rem;
@@ -94,24 +102,9 @@
 .pressKitLink {
   border-bottom: 4px solid #d6d8da;
 }
+
 .pressKitLink:active {
   border-bottom: none;
   position: relative;
   top: 2px;
 }
-
-
-
-
-
-
-
-
-
-/* News */
-
-/* PressKit */
-
-/* ContactUs */
-
-/* Media */

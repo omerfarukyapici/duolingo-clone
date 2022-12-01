@@ -1,4 +1,4 @@
-const OurComp = ({
+export const OurComp = ({
     ourİmg,
     title,
     content,
@@ -57,7 +57,7 @@ const OurComp = ({
                 </div>
 
                 <div className="hidden lg:flex justify-center relative">
-                    <img className="w-full " alt="" className={ourTwoİmgStyle} src={ourİmg} />
+                    <img alt="" className={ourTwoİmgStyle} src={ourİmg} />
                 </div>
             </div>
 
@@ -65,4 +65,3 @@ const OurComp = ({
         </div>
     );
 }
-export default OurComp;

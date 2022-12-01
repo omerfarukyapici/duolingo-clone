@@ -1,6 +1,6 @@
 import '../EfficacyMain.css';
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <div className="e-Footer flex justify-center">
             <div className="e-Footer-Container flex justify-center px-2">
@@ -18,5 +18,3 @@ const Footer = () => {
         </div>
     );
 }
-
-export default Footer;

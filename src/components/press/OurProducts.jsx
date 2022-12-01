@@ -1,10 +1,10 @@
-import ProductComp from "./ProductComp";
+import { ProductComp } from "./ProductComp";
 
-import ProductOne from '../Pressİmg/productOne.svg';
-import ProductTwo from '../Pressİmg/productTwo.svg';
-import ProductThree from '../Pressİmg/productThree.svg';
+import ProductOne from '../../assets/img/press/productOne.svg';
+import ProductTwo from '../../assets/img/press/productTwo.svg';
+import ProductThree from '../../assets/img/press/productThree.svg';
 
-const OurProducts = () => {
+export const OurProducts = () => {
     return (
         <div className="flex justify-center">
             <div className="w-full lg:w-[1000px] pb-[1.5rem] md:pb-[3rem] border-solid border-b-2 border-[#e5e5e5]">
@@ -49,4 +49,3 @@ const OurProducts = () => {
         </div>
     );
 }
-export default OurProducts;

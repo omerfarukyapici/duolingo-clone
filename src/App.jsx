@@ -17,6 +17,7 @@ import LearnStories from "./pages/LearnStories";
 import Shop from "./pages/Shop";
 import Learn from "./pages/Learn";
 import ReSearch from "./pages/ReSearch";
+import Press from "./pages/Press";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -27,7 +28,8 @@ import CareerFaq from "./components/about_us/Career/CareerFaq";
 import DuoAboutUs from "./components/about_us/DuoAboutUs/DuoAboutUs";
 import CoursesMain from './components/about_us/Courses/CoursesMain';
 import Efficacy from './components/about_us/Efficacy/EfficacyMain';
-import Press from "./components/about_us/Press/Press"; */
+
+*/
 
 /* Action */
 /* import Action from './components/Action/Action';*/
@@ -70,9 +72,10 @@ function App() {
 
           {/* BUİLDİNG PAGES */}
 
-          {/* <Route path="/press">
-              <Press />
-            </Route>
+          <Route path="/press">
+            <Press />
+          </Route>
+          {/* 
 
             <Route path="/career">
               <Career />

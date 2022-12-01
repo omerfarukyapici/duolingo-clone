@@ -1,10 +1,10 @@
-import OurComp from "./OurComp";
-import ourOne from '../Pressİmg/ourOne.svg';
-import ourTwo from '../Pressİmg/ourTwo.svg';
-import ourThree from '../Pressİmg/ourThree.svg';
+import { OurComp } from "./OurComp";
+import ourOne from '../../assets/img/press/ourOne.svg';
+import ourTwo from '../../assets/img/press/ourTwo.svg';
+import ourThree from '../../assets/img/press/ourThree.svg';
 
 
-const Our = () => {
+export const Our = () => {
     return (
         <div className=" flex justify-center pt-[5rem] ">
             <div className="w-full lg:w-[978px] pb-[2rem] border-solid border-b-2 border-[#e5e5e5]">
@@ -52,4 +52,3 @@ const Our = () => {
         </div>
     );
 }
-export default Our;
