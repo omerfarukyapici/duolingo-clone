@@ -1,4 +1,4 @@
-const ContentLangComp = ({ langFrag, langName, learners }) => {
+export const ContentLangComp = ({ langFrag, langName, learners }) => {
     return (
         <a href="#/coursemain">
             <div>
@@ -12,5 +12,3 @@ const ContentLangComp = ({ langFrag, langName, learners }) => {
         </a>
     );
 }
-
-export default ContentLangComp;

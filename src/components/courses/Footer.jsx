@@ -1,6 +1,6 @@
-import '../CoursesMain.css';
+import "../../assets/styles/courses.css";
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <div className='c-Footer flex justify-center'>
             <div className="c-Footer-Container flex justify-center pt-10 pb-12">
@@ -43,5 +43,3 @@ const Footer = () => {
         </div>
     );
 }
-
-export default Footer;

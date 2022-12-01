@@ -1,47 +1,46 @@
-import '../CoursesMain.css';
-
-import es from '../../../welcome_page/welcome_page_img/es.svg';
-import french from '../../../welcome_page/welcome_page_img/french.svg';
-import ja from '../../../welcome_page/welcome_page_img/ja.svg';
-import german from '../../../welcome_page/welcome_page_img/german.svg';
-import ko from '../../../welcome_page/welcome_page_img/ko.svg';
-import italiano from '../../../welcome_page/welcome_page_img/italiano.svg';
-import zh from '../../../welcome_page/welcome_page_img/zh-c.svg';
-import hi from '../../../welcome_page/welcome_page_img/hi.svg';
-import ru from '../../../welcome_page/welcome_page_img/ru.svg';
-import arabic from '../../../welcome_page/welcome_page_img/arabic.svg';
-import tr from '../../../welcome_page/welcome_page_img/tr.svg';
-import pt from '../../../welcome_page/welcome_page_img/pt.svg';
-import nl from '../../../welcome_page/welcome_page_img/nl.svg';
-import la from '../../../welcome_page/welcome_page_img/la.svg';
-import sv from '../../../welcome_page/welcome_page_img/sv.svg';
-import vi from '../../../welcome_page/welcome_page_img/vi.svg';
-import ga from '../../../welcome_page/welcome_page_img/ga.svg';
-import el from '../../../welcome_page/welcome_page_img/el.svg';
-import polski from '../../../welcome_page/welcome_page_img/polski.svg';
-import nobo from '../../../welcome_page/welcome_page_img/no-bo.svg';
-import he from '../../../welcome_page/welcome_page_img/he.svg';
-import id from '../../../welcome_page/welcome_page_img/id.svg';
-import hw from '../../../welcome_page/welcome_page_img/hw.svg';
-import da from '../../../welcome_page/welcome_page_img/da.svg';
-import fi from '../../../welcome_page/welcome_page_img/fi.svg';
-import ro from '../../../welcome_page/welcome_page_img/rom.svg';
-import hv from '../../../welcome_page/welcome_page_img/hv.svg';
-import cy from '../../../welcome_page/welcome_page_img/cy.svg';
-import cs from '../../../welcome_page/welcome_page_img/cs.svg';
-import gd from '../../../welcome_page/welcome_page_img/gd.svg';
-import yi from '../../../welcome_page/welcome_page_img/yi.svg';
-import uk from '../../../welcome_page/welcome_page_img/uk.svg';
-import sw from '../../../welcome_page/welcome_page_img/sw.svg';
-import magyar from '../../../welcome_page/welcome_page_img/magyar.svg';
-import tlh from '../../../welcome_page/welcome_page_img/tlh.svg';
-import eo from '../../../welcome_page/welcome_page_img/eo.svg';
-import nv from '../../../welcome_page/welcome_page_img/nv.svg';
-import ContentLangComp from './ContentLangComp';
-
+import es from "../../assets/img/welcome/es.svg";
+import french from '../../assets/img/welcome/french.svg';
+import ja from '../../assets/img/welcome/ja.svg';
+import german from '../../assets/img/welcome/german.svg';
+import ko from '../../assets/img/welcome/ko.svg';
+import italiano from '../../assets/img/welcome/italiano.svg';
+import zh from '../../assets/img/welcome/zh-c.svg';
+import hi from '../../assets/img/welcome/hi.svg';
+import ru from '../../assets/img/welcome/ru.svg';
+import arabic from '../../assets/img/welcome/arabic.svg';
+import tr from '../../assets/img/welcome/tr.svg';
+import pt from '../../assets/img/welcome/pt.svg';
+import nl from '../../assets/img/welcome/nl.svg';
+import la from '../../assets/img/welcome/la.svg';
+import sv from '../../assets/img/welcome/sv.svg';
+import vi from '../../assets/img/welcome/vi.svg';
+import ga from '../../assets/img/welcome/ga.svg';
+import el from '../../assets/img/welcome/el.svg';
+import polski from '../../assets/img/welcome/polski.svg';
+import nobo from '../../assets/img/welcome/no-bo.svg';
+import he from '../../assets/img/welcome/he.svg';
+import id from '../../assets/img/welcome/id.svg';
+import hw from '../../assets/img/welcome/hw.svg';
+import da from '../../assets/img/welcome/da.svg';
+import fi from '../../assets/img/welcome/fi.svg';
+import ro from '../../assets/img/welcome/rom.svg';
+import hv from '../../assets/img/welcome/hv.svg';
+import cy from '../../assets/img/welcome/cy.svg';
+import cs from '../../assets/img/welcome/cs.svg';
+import gd from '../../assets/img/welcome/gd.svg';
+import yi from '../../assets/img/welcome/yi.svg';
+import uk from '../../assets/img/welcome/uk.svg';
+import sw from '../../assets/img/welcome/sw.svg';
+import magyar from '../../assets/img/welcome/magyar.svg';
+import tlh from '../../assets/img/welcome/tlh.svg';
+import eo from '../../assets/img/welcome/eo.svg';
+import nv from '../../assets/img/welcome/nv.svg';
+import { ContentLangComp } from "./ContentLangComp";
+import "../../assets/styles/courses.css";
 
 
-const Content = () => {
+
+export const Content = () => {
     return (
         <div className="c-Content flex justify-center">
             <div className="c-Content-container">
@@ -255,4 +254,3 @@ const Content = () => {
     );
 }
 
-export default Content;

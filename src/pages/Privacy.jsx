@@ -1,4 +1,4 @@
-import Header from "../components/about_us/Courses/Header/Header";
+import { Header } from "../components/courses/Header";
 import Content from "../components/privacy/Content";
 
 import { useEffect } from 'react';

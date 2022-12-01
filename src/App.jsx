@@ -19,17 +19,18 @@ import Learn from "./pages/Learn";
 import ReSearch from "./pages/ReSearch";
 import Press from "./pages/Press";
 import Efficacy from "./pages/Efficacy";
+import Courses from "./pages/Courses";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
 import CareerStudents from "./components/about_us/Career/CareerStudents";
 import CareerAboutUs from "./components/about_us/Career/CareerAboutUs";
 import CareerFaq from "./components/about_us/Career/CareerFaq";
-
+ 
 import DuoAboutUs from "./components/about_us/DuoAboutUs/DuoAboutUs";
-import CoursesMain from './components/about_us/Courses/CoursesMain';
-
-
+ 
+ 
+ 
 */
 
 /* Action */
@@ -52,15 +53,13 @@ function App() {
           {/* About Us */}
           <Route path="/research"><ReSearch /></Route>
           <Route path="/efficacy"> <Efficacy /></Route>
+          <Route path="/courses"><Courses /></Route>
           {/* 
 
             <Route path="/duoaboutus">
               <DuoAboutUs />
             </Route>
 
-            <Route path="/coursemain">
-              <CoursesMain />
-            </Route>
           */}
 
 

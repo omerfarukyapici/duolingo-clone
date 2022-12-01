@@ -1,41 +1,39 @@
-import '../CoursesMain.css';
+import "../../assets/styles/courses.css";
+import "../../assets/styles/welcome.css";
 
-import "../../../../assets/styles/welcome.css";
+import logo from "../../assets/img/welcome/w_p_logo.svg"
 
-import logo from "../../../../assets/img/welcome/w_p_logo.svg";
+import ar from '../../assets/img/welcome/arabic.svg';
+import german from '../../assets/img/welcome/german.svg';
+import en from '../../assets/img/welcome/america.svg';
+import french from '../../assets/img/welcome/french.svg';
+import magyar from '../../assets/img/welcome/magyar.svg';
+import italiano from '../../assets/img/welcome/italiano.svg';
+import ko from '../../assets/img/welcome/ko.svg';
+import pl from '../../assets/img/welcome/polski.svg';
+import ro from '../../assets/img/welcome/rom.svg';
+import th from '../../assets/img/welcome/th.svg';
+import uk from '../../assets/img/welcome/uk.svg';
+import zhc from '../../assets/img/welcome/zh-c.svg';
+import cs from '../../assets/img/welcome/cs.svg';
+import el from '../../assets/img/welcome/el.svg';
+import es from '../../assets/img/welcome/es.svg';
+import hi from '../../assets/img/welcome/hi.svg';
+import id from '../../assets/img/welcome/id.svg';
+import ja from '../../assets/img/welcome/ja.svg';
+import nl from '../../assets/img/welcome/nl.svg';
+import pt from '../../assets/img/welcome/pt.svg';
+import ru from '../../assets/img/welcome/ru.svg';
+import tr from '../../assets/img/welcome/tr.svg';
+import vi from '../../assets/img/welcome/vi.svg';
+import row from '../../assets/img/welcome/row.svg';
 
-import ar from '../../../../assets/img/welcome/arabic.svg';
-import german from '../../../../assets/img/welcome/german.svg';
-import en from '../../../../assets/img/welcome/america.svg';
-import french from '../../../../assets/img/welcome/french.svg';
-import magyar from '../../../../assets/img/welcome/magyar.svg';
-import italiano from '../../../../assets/img/welcome/italiano.svg';
-import ko from '../../../../assets/img/welcome/ko.svg';
-import pl from '../../../../assets/img/welcome/polski.svg';
-import ro from '../../../../assets/img/welcome/rom.svg';
-import th from '../../../../assets/img/welcome/th.svg';
-import uk from '../../../../assets/img/welcome/uk.svg';
-import zhc from '../../../../assets/img/welcome/zh-c.svg';
-import cs from '../../../../assets/img/welcome/cs.svg';
-import el from '../../../../assets/img/welcome/el.svg';
-import es from '../../../../assets/img/welcome/es.svg';
-import hi from '../../../../assets/img/welcome/hi.svg';
-import id from '../../../../assets/img/welcome/id.svg';
-import ja from '../../../../assets/img/welcome/ja.svg';
-import nl from '../../../../assets/img/welcome/nl.svg';
-import pt from '../../../../assets/img/welcome/pt.svg';
-import ru from '../../../../assets/img/welcome/ru.svg';
-import tr from '../../../../assets/img/welcome/tr.svg';
-import vi from '../../../../assets/img/welcome/vi.svg';
-import row from '../../../../assets/img/welcome/row.svg';
+import humburgerMenu from "../about_us/About_Us_İmg/hamburger-menu.svg"
 
-import humburgerMenu from '../../About_Us_İmg/hamburger-menu.svg';
-
-import LangComponent from '../../../welcome/langComponent';
-
+import { ContentLangComp } from "./ContentLangComp";
 
 
-const Header = () => {
+export const Header = () => {
 
     const showHide = () => {
         let links = document.querySelector(".c-humburger-links");
@@ -64,179 +62,133 @@ const Header = () => {
                             <div className="flags-Languages flex invisible group-focus:visible group-hover:visible p-4 hover:visible">
                                 <ul className='language-list'>
 
-                                    
-
                                     {/* Useful Component */}
 
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={ar}
                                         language="العربية"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={german}
                                         language="Deutsch"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={en}
                                         language="English"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={french}
                                         language="Français"
                                     />
 
-                                    
-
-
-
-
-
-
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={magyar}
                                         language="Magyar"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={italiano}
                                         language="Italiano"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={ko}
                                         language="한국어"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={pl}
                                         language="Polski"
                                     />
 
-
-
-                                    
-
-
-
-
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={ro}
                                         language="Română"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={th}
                                         language="ภาษาไทย"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={uk}
                                         language="Українською"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={zhc}
                                         language="中文"
                                     />
-
-
-
-                                    
-
-
-
-
-
-
 
                                 </ul>
                                 <ul className='language-list '>
                                     <img className="up-row" alt="" src={row} />
 
 
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={cs}
                                         language="Čeština"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={el}
                                         language="Ελληνικά"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={es}
                                         language="Español"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={hi}
                                         language="हिंदी"
                                     />
 
-
-
-
-
-                                    
-
-
-
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={id}
                                         language="Bahasa Indonesia"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={ja}
                                         language="日本語"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={nl}
                                         language="Nederlands"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={pt}
                                         language="Português"
                                     />
 
-
-
-
-                                    
-
-
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={ru}
                                         language="Русский"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={tr}
                                         language="Türkçe"
                                     />
-                                    <LangComponent
+                                    <ContentLangComp
                                         wpHeaderCcn="li"
                                         languageFrag={vi}
                                         language="Tiếng Việt"
                                     />
-
-
-
-
-
-                                    
 
                                 </ul>
                             </div>
@@ -263,12 +215,10 @@ const Header = () => {
                                 </div>
                             </div>
                         </button>
-                        
+
                     </div>
                 </div>
             </nav>
         </div>
     );
 }
-
-export default Header;

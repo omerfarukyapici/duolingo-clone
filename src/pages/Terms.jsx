@@ -1,5 +1,5 @@
-import Header from "../components/about_us/Courses/Header/Header";
-import Content from '../components/terms/Content';
+import { Header } from '../components/courses/Header';
+import { Content } from '../components/terms/Content';
 
 import { useEffect } from "react";
 import { toTop } from "../utils";

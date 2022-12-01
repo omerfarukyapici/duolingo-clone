@@ -1,5 +1,5 @@
-import StoriesHeader from "../components/about_us/Courses/Header/Header";
-import StoriesFooter from '../components/about_us/Courses/Footer/Footer.js';
+import { Header } from "../components/courses/Header";
+import { Footer } from '../components/courses/Footer';
 
 import es from "../assets/img/welcome/es.svg";
 import pt from '../assets/img/welcome/pt.svg';
@@ -8,7 +8,7 @@ import german from '../assets/img/welcome/german.svg';
 import italiano from '../assets/img/welcome/italiano.svg';
 import ja from '../assets/img/welcome/ja.svg';
 
-import ContentLangComp from "../components/about_us/Courses/Content/ContentLangComp";
+import { ContentLangComp } from "../components/courses/ContentLangComp";
 
 import { useEffect } from "react";
 import { toTop } from "../utils";
@@ -20,7 +20,7 @@ const Stories = () => {
 
     return (
         <div>
-            <StoriesHeader />
+            <Header />
 
 
             <div className="pt-[8rem] md:pt-[10rem] flex justify-center ">
@@ -86,7 +86,7 @@ const Stories = () => {
                 </div>
             </div>
 
-            <StoriesFooter />
+            <Footer />
         </div>
     );
 }

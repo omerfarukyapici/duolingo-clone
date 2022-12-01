@@ -1,4 +1,4 @@
-const Content = () => {
+export const Content = () => {
     return (
         <div className="flex justify-center ">
             <div className=" w-full md:w-[880px] px-[35px] sm:px-[40px] px-5 pt-[6rem] md:pt-[7rem]">
@@ -525,4 +525,3 @@ const Content = () => {
         </div>
     );
 }
-export default Content;

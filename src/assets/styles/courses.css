@@ -33,6 +33,7 @@
   overflow: hidden;
   transform: translateZ(0);
 }
+
 .c-humburger-links a {
   color: #4b4b4b;
   font-weight: 700;
@@ -43,12 +44,12 @@
 }
 
 .c-border-t:hover {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .c-border-t {
   border-top: 2px solid #e5e5e5;
-  text-align: left ;
+  text-align: left;
 }
 
 /* Content */
@@ -57,12 +58,14 @@
   padding-top: 4.7rem;
   padding-bottom: 3rem;
 }
+
 .c-Content-container {
   width: 912px;
 }
+
 .c-content-Lngs {
   padding-right: 1.4rem;
-  background-image: url("../About_Us_İmg/b-row.svg");
+  background-image: url("../../components/about_us/About_Us_İmg/b-row.svg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 0.9rem;
@@ -95,6 +98,7 @@
 .c-Footer .c-Footer-Container {
   width: 1080px;
 }
+
 .c-Footer-Container {
   border-top: 2px solid #e5e5e5;
 }
@@ -106,9 +110,11 @@
   text-transform: uppercase;
   color: #afafaf;
 }
+
 .c-Footer li a:hover {
   color: #1cb0f6;
 }
+
 .c-Footer li {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
@@ -120,9 +126,11 @@
   .c-Footer {
     display: none;
   }
+
   .c-humburger-button {
     display: block;
   }
+
   .courses-Header {
     display: none !important;
   }

@@ -1,6 +1,6 @@
-import Content from "../components/about_us/Courses/Content/Content";
-import Footer from "../components/about_us/Courses/Footer/Footer";
-import Header from "../components/about_us/Courses/Header/Header";
+import { Content } from "../components/courses/Content";
+import { Footer } from "../components/courses/Footer";
+import { Header } from "../components/courses/Header";
 import { useEffect } from "react";
 import { toTop } from "../utils";
 
