@@ -1,4 +1,4 @@
-import '../EfficacyMain.css';
+import "../../assets/styles/efficacy.css";
 
 export const Footer = () => {
     return (

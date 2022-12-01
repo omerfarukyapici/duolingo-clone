@@ -1,15 +1,13 @@
-import '../EfficacyMain.css';
-import speakİmg from '../img/speak.svg';
+import "../../assets/styles/welcome.css";
+import speakİmg from '../../assets/img/efficacy/speak.svg';
 
 
-const Speaking = () => {
-
-
+export const Speaking = () => {
     return (
         <div className="e-Speaking flex justify-center" >
             <div className="e-Speaking-Container pt-20 pb-20">
                 <div className="text-center e-speak-p" >
-                   <p>Speaking</p> 
+                    <p>Speaking</p>
                 </div>
                 <div>
                     <img className="w-full" src={speakİmg} />
@@ -37,5 +35,3 @@ const Speaking = () => {
 
     );
 }
-
-export default Speaking;

@@ -1,9 +1,9 @@
-import '../EfficacyMain.css';
+import "../../assets/styles/efficacy.css";
 
-import mobileİmg from '../img/listenReadMobile.svg';
-import normalİmg from '../img/listenRead.svg';
+import mobileİmg from '../../assets/img/efficacy/listenReadMobile.svg';
+import normalİmg from '../../assets/img/efficacy/listenRead.svg';
 
-const ListenRead = () => {
+export const ListenRead = () => {
     return (
         <div className="e-ListenRead flex justify-center ">
             <div className="e-ListenRead-Container pt-20 pb-20 px-4">
@@ -55,5 +55,3 @@ const ListenRead = () => {
         </div>
     );
 }
-
-export default ListenRead;

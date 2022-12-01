@@ -5,7 +5,7 @@ import { Releases } from '../components/press/Releases';
 import { News } from '../components/press/News';
 import { PressKit } from '../components/press/PressKit';
 import { ContactUs } from '../components/press/ContactUs';
-import { Footer } from "../components/about_us/Efficacy/CompAssets/Footer";
+import { Footer } from "../components/efficacy/Footer";
 
 import { useEffect } from 'react';
 import { toTop } from "../utils";
