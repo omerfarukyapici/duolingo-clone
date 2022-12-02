@@ -1,6 +1,6 @@
-import Navbar from '../components/about_us/Career/Navbar';
-import Jobs from '../components/about_us/Career/Jobs';
-import Footer from '../components/about_us/Career/Footer';
+import Navbar from '../components/career/Navbar';
+import Jobs from '../components/career/Content';
+import Footer from '../components/career/Footer';
 
 import { useEffect } from 'react';
 import { toTop } from "../utils";
