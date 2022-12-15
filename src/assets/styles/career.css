@@ -37,12 +37,12 @@ Content Job
 .teamLinkedinİmg {
     width: 1.2rem;
     height: 1.2rem;
-    background-image: url("../Press/Pressİmg/linkedin.svg");
+    background-image: url("../img/press/linkedin.svg");
     background-repeat: no-repeat;
     display: block;
 }
 .teamLinkedinİmg:hover {
-    background-image: url("../Press/Pressİmg/linkedinHover.svg");
+    background-image: url("../img/press/linkedinHover.svg");
     transition: .5s;
 }
 

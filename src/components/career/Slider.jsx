@@ -1,15 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
-import { Button } from "../../Button";
+import { Button } from "./Button";
 
 /* Slider img */
-import sliderOne from '../../Careerİmg/sliderOne.png';
-import sliderTwo from '../../Careerİmg/sliderTwo.png';
-import sliderThree from '../../Careerİmg/sliderThree.png';
-import sliderFour from '../../Careerİmg/sliderFour.png';
-import sliderFive from '../../Careerİmg/sliderFive.png';
+import sliderOne from '../../assets/img/career/sliderOne.png';
+import sliderTwo from '../../assets/img/career/sliderTwo.png';
+import sliderThree from '../../assets/img/career/sliderThree.png';
+import sliderFour from '../../assets/img/career/sliderFour.png';
+import sliderFive from '../../assets/img/career/sliderFive.png';
 
-import '../../Career.css';
+import "../../assets/styles/career.css";
 
 const JobSlider = () => {
 

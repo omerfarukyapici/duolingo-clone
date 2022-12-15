@@ -1,21 +1,22 @@
 import BenfPerkComp from "./BenfPerkComp";
 
-import benOne from '../../Careerİmg/benOne.svg';
-import benTwo from '../../Careerİmg/benTwo.svg';
-import benThree from '../../Careerİmg/benThree.svg';
-import benFour from '../../Careerİmg/benFour.svg';
-import benSix from '../../Careerİmg/benSix.svg';
-import benSeven from '../../Careerİmg/benSeven.svg';
-import benEight from '../../Careerİmg/benEight.svg';
-import benNine from '../../Careerİmg/benNine.svg';
-import benTen from '../../Careerİmg/benTen.svg';
-import benEleven from '../../Careerİmg/benEleven.svg';
-import benTwelve from '../../Careerİmg/benTwelve.svg';
-import benThirteen from '../../Careerİmg/benThirteen.svg';
-import benFourteen from '../../Careerİmg/benFourteen.svg';
-import benFifteen from '../../Careerİmg/benFifteen.svg';
-import benGame from '../../Careerİmg/benGame.svg';
-import benToJob from '../../Careerİmg/benToJob.svg';
+
+import benOne from "../../assets/img/career/benOne.svg"
+import benTwo from '../../assets/img/career/benTwo.svg';
+import benThree from '../../assets/img/career/benThree.svg';
+import benFour from '../../assets/img/career/benFour.svg';
+import benSix from '../../assets/img/career/benSix.svg';
+import benSeven from '../../assets/img/career/benSeven.svg';
+import benEight from '../../assets/img/career/benEight.svg';
+import benNine from '../../assets/img/career/benNine.svg';
+import benTen from '../../assets/img/career/benTen.svg';
+import benEleven from '../../assets/img/career/benEleven.svg';
+import benTwelve from '../../assets/img/career/benTwelve.svg';
+import benThirteen from '../../assets/img/career/benThirteen.svg';
+import benFourteen from '../../assets/img/career/benFourteen.svg';
+import benFifteen from '../../assets/img/career/benFifteen.svg';
+import benGame from '../../assets/img/career/benGame.svg';
+import benToJob from '../../assets/img/career/benToJob.svg';
 
 const Benefits = () => {
 

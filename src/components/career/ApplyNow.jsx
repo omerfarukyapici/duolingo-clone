@@ -1,6 +1,7 @@
-import { Button } from "../Button";
-import Openingİmg from '../Careerİmg/footerİmg.svg';
-import '../Career.css';
+import { Button } from "./Button";
+import OpeningImg from "../../assets/img/career/footerImg.svg";
+/* import '../Career.css'; */
+import "../../assets/styles/career.css"
 
 const ApplyNow = () => {
     return (
@@ -22,7 +23,7 @@ const ApplyNow = () => {
                     </div>
                 </div>
                 <div className="hidden lg:block">
-                    <img src={Openingİmg} alt="" />
+                    <img src={OpeningImg} alt="" />
                 </div>
             </div>
         </div>

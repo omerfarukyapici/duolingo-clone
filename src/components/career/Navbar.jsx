@@ -1,6 +1,6 @@
 /* Use press navbar component */
-import logo from './Careerİmg/logo.svg';
-import NavComp from '../Press/Navbar/NavComp';
+import logo from "../../assets/img/career/logo.svg";
+import { NavComp } from "../press/NavComp";
 
 import { useState } from 'react';
 
@@ -78,7 +78,7 @@ const Navbar = () => {
                             linkName="FAQ"
                             linkAdress="#/careerfaq"
                         />
-                        
+
                     </div>
                     <div className="hidden xl:flex justify-between w-[190px] PressNavSocial">
                         <div className="pt-4 pr-6">

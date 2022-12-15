@@ -1,7 +1,7 @@
 /* import JobData from './jobs.json'; */
 
 import React from 'react';
-import Jobs from './jobs.json';
+import Jobs from "../../data/career/jobs.json"
 
 const JobOpening = () => {
 

@@ -1,6 +1,6 @@
 import Benefits from "./Benefits";
 import JobOpening from "./JobOpenings";
-import JobSlider from "./Content/Jobs/Slider";
+import JobSlider from "./Slider"
 
 const Jobs = () => {
 

@@ -20,6 +20,7 @@ import ReSearch from "./pages/ReSearch";
 import Press from "./pages/Press";
 import Efficacy from "./pages/Efficacy";
 import Courses from "./pages/Courses";
+import Career from "./pages/Career";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -68,11 +69,9 @@ function App() {
           {/* BUİLDİNG PAGES */}
 
           <Route path="/press"><Press /></Route>
+          <Route path="/career"><Career /></Route>
           {/* 
 
-            <Route path="/career">
-              <Career />
-            </Route>
 
             <Route path="/careerstudents">
               <CareerStudents />

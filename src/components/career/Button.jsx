@@ -1,4 +1,4 @@
-import './Career.css';
+import "../../assets/styles/career.css";
 
 export const Button = ({ content, style }) => {
     return (
