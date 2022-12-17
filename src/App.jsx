@@ -21,10 +21,11 @@ import Press from "./pages/Press";
 import Efficacy from "./pages/Efficacy";
 import Courses from "./pages/Courses";
 import Career from "./pages/Career";
+import CareerStudent from "./pages/CareerStudent";
+import CareerAboutUs from "./pages/CareerAboutUs";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
-import CareerStudents from "./components/about_us/Career/CareerStudents";
 import CareerAboutUs from "./components/about_us/Career/CareerAboutUs";
 import CareerFaq from "./components/about_us/Career/CareerFaq";
  
@@ -70,16 +71,12 @@ function App() {
 
           <Route path="/press"><Press /></Route>
           <Route path="/career"><Career /></Route>
+          <Route path="/careerstudents"> <CareerStudent /></Route>
+          <Route path="/careeraboutus"><CareerAboutUs /></Route>
           {/* 
 
 
-            <Route path="/careerstudents">
-              <CareerStudents />
-            </Route>
 
-            <Route path="/careeraboutus">
-              <CareerAboutUs />
-            </Route>
 
             <Route path="/careerfaq">
               <CareerFaq />

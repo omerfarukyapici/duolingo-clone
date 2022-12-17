@@ -1,16 +1,18 @@
 /*  OurComp.js (from press page) */
 
-import OurComp from "../../../Press/Our/OurComp";
 
-import StudentOne from '../../Careerİmg/student.svg';
-import StudentTwo from '../../Careerİmg/studentTwo.svg';
-import StudentThree from '../../Careerİmg/studentThree.svg';
+import { OurComp } from "../press/OurComp";
 
-import teamOne from '../../Careerİmg/teamOne.png';
-import teamTwo from '../../Careerİmg/teamTwo.png';
-import teamThree from '../../Careerİmg/teamThree.png';
+import StudentOne from "../../assets/img/career/student.svg";
 
-import '../../Career.css';
+import StudentTwo from '../../assets/img/career/studentTwo.svg';
+import StudentThree from '../../assets/img/career/studentThree.svg';
+
+import teamOne from '../../assets/img/career/teamOne.png';
+import teamTwo from '../../assets/img/career/teamTwo.png';
+import teamThree from '../../assets/img/career/teamThree.png';
+
+import "../../assets/styles/career.css";
 
 const Students = () => {
     return (
@@ -29,7 +31,7 @@ const Students = () => {
                 Our global team works together to make language learning fun, free, and effective for anyone who wants to
                 learn, wherever they are."
                         ourİmg={StudentOne}
-                        
+
 
                         contentClass="w-full lg:w-[520px] m-2 lg:m-20"
 
@@ -95,7 +97,7 @@ const Students = () => {
                         teamDepartment={"— Sammi, Software Engineer"}
                         ourİmg=""
                         contentClass="w-full lg:w-[500px] pl-0 lg:pl-10 m-2 lg:m-20"
-                        
+
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
 
@@ -111,11 +113,11 @@ const Students = () => {
                         and the potential to make a difference to literally millions of people around the world.
                         I believe in accessible education for everyone, so joining the 'movers and shakers' at Duolingo 
                         was a no-brainer, and I am glad I did."
-                        
+
                         teamDepartment={"— Jonathan, Software Engineer"}
                         ourİmg={teamTwo}
                         contentClass="w-full lg:w-[520px] m-2 lg:m-20"
-                        
+
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
 
@@ -134,13 +136,13 @@ const Students = () => {
                         teamDepartment={"— Natalia, Product Manager"}
                         ourİmg=""
                         contentClass="w-full lg:w-[500px] pl-0 lg:pl-10 m-2 lg:m-20"
-                        
+
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
 
 
                         ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem]"}
-                        ourTwoİmgStyle={"w-auto rounded-[1rem]"}  
+                        ourTwoİmgStyle={"w-auto rounded-[1rem]"}
                     />
                 </div>
             </div>
