@@ -25,16 +25,11 @@ import CareerStudent from "./pages/CareerStudent";
 import CareerAboutUs from "./pages/CareerAboutUs";
 import CareerFaqs from "./pages/CareerFaqs";
 
-/* About Us Updated Pages:*//* 
-import Career from "./components/about_us/Career/Career";
-import CareerAboutUs from "./components/about_us/Career/CareerAboutUs";
-import CareerFaq from "./components/about_us/Career/CareerFaq";
- 
-import DuoAboutUs from "./components/about_us/DuoAboutUs/DuoAboutUs";
+import DuoAboutUs from "./pages/DuoAboutUs";
  
  
  
-*/
+
 
 /* Action */
 /* import Action from './components/Action/Action';*/
@@ -57,13 +52,7 @@ function App() {
           <Route path="/research"><ReSearch /></Route>
           <Route path="/efficacy"> <Efficacy /></Route>
           <Route path="/courses"><Courses /></Route>
-          {/* 
-
-            <Route path="/duoaboutus">
-              <DuoAboutUs />
-            </Route>
-
-          */}
+          <Route path="/duoaboutus"><DuoAboutUs /></Route>
 
 
 

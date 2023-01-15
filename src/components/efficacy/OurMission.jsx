@@ -1,5 +1,5 @@
 import "../../assets/styles/welcome.css";
-import teacherDuo from "../about_us/About_Us_İmg/teacherDou.svg"
+import teacherDuo from "../../assets/img/duoAboutUs/teacherDou.svg"
 
 export const OurMission = () => {
     return (

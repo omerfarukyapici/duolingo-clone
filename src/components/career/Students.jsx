@@ -1,17 +1,10 @@
-/*  OurComp.js (from press page) */
-
-
 import { OurComp } from "../press/OurComp";
-
 import StudentOne from "../../assets/img/career/student.svg";
-
 import StudentTwo from '../../assets/img/career/studentTwo.svg';
 import StudentThree from '../../assets/img/career/studentThree.svg';
-
 import teamOne from '../../assets/img/career/teamOne.png';
 import teamTwo from '../../assets/img/career/teamTwo.png';
 import teamThree from '../../assets/img/career/teamThree.png';
-
 import "../../assets/styles/career.css";
 
 const Students = () => {
@@ -22,19 +15,14 @@ const Students = () => {
                     <OurComp
                         compClass="block lg:flex py-[2rem] lg:py-0 px-2"
                         ourMobileİmg={StudentOne}
-
                         ourMobileİmgStyle={"w-full lg:w-[318px] "}
                         ourTwoİmgStyle={"w-full "}
-
                         title="our mission"
                         content="We’re here to develop the best education in the world and make it universally available.
                 Our global team works together to make language learning fun, free, and effective for anyone who wants to
                 learn, wherever they are."
                         ourİmg={StudentOne}
-
-
                         contentClass="w-full lg:w-[520px] m-2 lg:m-20"
-
                         careerStudentLink={""}
                         careerStudentLinkContent={"APPLY NOW"}
                     />
@@ -47,10 +35,8 @@ const Students = () => {
 						learning a bridge to opportunity for millions around the world. We also have offices in New York, Seattle, Beijing, and Berlin."
                         ourİmg=""
                         contentClass="w-full lg:w-[500px] pl-0 lg:pl-10 m-2 lg:m-20"
-
                         careerStudentLink={""}
                         careerStudentLinkContent={"APPLY NOW"}
-
                         ourMobileİmgStyle={"w-full lg:w-[318px] "}
                         ourTwoİmgStyle={"w-full "}
                     />
@@ -63,27 +49,12 @@ const Students = () => {
                 learn, wherever they are."
                         ourİmg={StudentThree}
                         contentClass="w-full lg:w-[520px] m-2 lg:m-20"
-
                         careerStudentLink={""}
                         careerStudentLinkContent={"APPLY NOW"}
-
                         ourMobileİmgStyle={"w-full lg:w-[318px] "}
                         ourTwoİmgStyle={"w-full "}
                     />
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 <div className="py-[4rem]">
                     <OurComp
@@ -97,11 +68,8 @@ const Students = () => {
                         teamDepartment={"— Sammi, Software Engineer"}
                         ourİmg=""
                         contentClass="w-full lg:w-[500px] pl-0 lg:pl-10 m-2 lg:m-20"
-
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
-
-
                         ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem]"}
                         ourTwoİmgStyle={"w-auto rounded-[1rem]"}
                     />
@@ -113,15 +81,11 @@ const Students = () => {
                         and the potential to make a difference to literally millions of people around the world.
                         I believe in accessible education for everyone, so joining the 'movers and shakers' at Duolingo 
                         was a no-brainer, and I am glad I did."
-
                         teamDepartment={"— Jonathan, Software Engineer"}
                         ourİmg={teamTwo}
                         contentClass="w-full lg:w-[520px] m-2 lg:m-20"
-
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
-
-
                         ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem]"}
                         ourTwoİmgStyle={"w-auto rounded-[1rem]"}
                     />
@@ -136,19 +100,14 @@ const Students = () => {
                         teamDepartment={"— Natalia, Product Manager"}
                         ourİmg=""
                         contentClass="w-full lg:w-[500px] pl-0 lg:pl-10 m-2 lg:m-20"
-
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
-
-
                         ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem]"}
                         ourTwoİmgStyle={"w-auto rounded-[1rem]"}
                     />
                 </div>
             </div>
-
         </div>
-
     );
 }
 

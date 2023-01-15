@@ -1,10 +1,9 @@
-import teamOne from './AboutUsİmg/teamOne.svg';
-import teamTwo from './AboutUsİmg/teamTwo.svg';
-import teamThree from './AboutUsİmg/teamThree.svg';
-import teamFive from './AboutUsİmg/teamFive.svg';
-import teamFour from './AboutUsİmg/teamFour.svg';
-
-import './DuoAboutUs.css';
+import teamOne from "../../assets/img/duoAboutUs/teamOne.svg";
+import teamTwo from "../../assets/img/duoAboutUs/teamTwo.svg";
+import teamThree from "../../assets/img/duoAboutUs/teamThree.svg";
+import teamFour from "../../assets/img/duoAboutUs/teamFour.svg";
+import teamFive from "../../assets/img/duoAboutUs/teamFive.svg";
+import "../../assets/styles/duoAboutUs.css";
 
 const Team = () => {
     return (

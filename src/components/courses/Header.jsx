@@ -28,7 +28,8 @@ import tr from '../../assets/img/welcome/tr.svg';
 import vi from '../../assets/img/welcome/vi.svg';
 import row from '../../assets/img/welcome/row.svg';
 
-import humburgerMenu from "../about_us/About_Us_İmg/hamburger-menu.svg"
+
+import humburgerMenu from "../../assets/img/duoAboutUs/hamburger-menu.svg"
 
 import { ContentLangComp } from "./ContentLangComp";
 

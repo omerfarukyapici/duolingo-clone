@@ -1,5 +1,3 @@
-/* import JobData from './jobs.json'; */
-
 import React from 'react';
 import Jobs from "../../data/career/jobs.json"
 

@@ -15,7 +15,6 @@ const Faq = () => {
                         partOne="We search all around the world for the best software engineers, product managers, 
                     designers, and other talented people who are passionate about our mission and want to use their 
                     expertise to change the world for the better."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle={"hidden"}
                         partThreeStyle={"hidden"}
@@ -26,7 +25,6 @@ const Faq = () => {
                         partOne="Our home office is in Pittsburgh, PA, and the vast majority of the company works here. We have additional offices in
                      Beijing, China; Berlin, Germany; New York, NY; and Seattle, WA. Pittsburgh is where our new graduates and interns are located,
                       except for a few new graduates in our Beijing office!"
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle={"hidden"}
                         partThreeStyle={"hidden"}
@@ -35,7 +33,6 @@ const Faq = () => {
                     <QuestionsComp
                         questionContent={"I applied online. What is the next step?"}
                         partOne="If the team is interested in moving forward, we’ll aim to reach out within ~three weeks of submitting your application!"
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle={"hidden"}
                         partThreeStyle={"hidden"}
@@ -51,7 +48,6 @@ const Faq = () => {
                       development is also important to us: in addition to learning on a daily basis from your teammates, you will be paired with a 
                       mentor who will help you learn and grow in your career at Duolingo. You’ll get real results from your work and learn what it 
                       takes to ship features that perform well for language learners."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partThreeStyle={"hidden"}
@@ -61,7 +57,6 @@ const Faq = () => {
                         questionContent={"Do I have to speak more than one language to work at Duolingo?"}
                         partOne="Not at all! Duolingo, however, is a great place to pick up new language skills. We speak over 30 languages fluently 
                     within our office, and many Duos are bilingual and polyglots."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle={"hidden"}
                         partThreeStyle={"hidden"}
@@ -79,18 +74,15 @@ const Faq = () => {
                     to trick them. We know interviews can be stressful, so we do our best to make candidates feel welcome and comfortable at every step of 
                     the process."
                         partFour="During COVID-19, all interviews are currently conducted remotely via Zoom. For certain interviews, screen sharing may be involved."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partThreeStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partFourStyle="text-left pt-[.7rem] pb-[.2rem]"
-
                     />
                     <QuestionsComp
                         questionContent={"I applied for a role and was not selected. Can I reapply?"}
                         partOne="You are welcome to apply again for any role for which you see a good fit. Most successful re-applicants usually wait six months to a year, 
                     so they can improve their skill set, take on new challenges, and have something new to share."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle={"hidden"}
                         partThreeStyle={"hidden"}
@@ -100,7 +92,6 @@ const Faq = () => {
                         questionContent={"Can I apply for multiple positions?"}
                         partOne="You are welcome to apply for any positions you are interested in! However, we do find it 
                     the most successful to apply for one or two roles that best match the position requirements and your qualifications."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle={"hidden"}
                         partThreeStyle={"hidden"}
@@ -110,7 +101,6 @@ const Faq = () => {
                         questionContent={"What if I need an accommodation for my interview?"}
                         partOne="We will do everything we can within reason to make sure that your interview takes place in an environment that fairly and accurately 
                     assesses your skills. If you need assistance or accommodation, please contact your recruiter."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle={"hidden"}
                         partThreeStyle={"hidden"}
@@ -120,7 +110,6 @@ const Faq = () => {
                         questionContent={"How can I learn more about Duolingo?"}
                         partOne="Visit the Duolingo blog to learn about our team, our mission, and the process behind bringing our work to the world.
                      You can also learn about Design at Duolingo here."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle={"hidden"}
                         partThreeStyle={"hidden"}
@@ -135,15 +124,12 @@ const Faq = () => {
                       vaccinated against COVID-19 and have received any booster doses as recommended by the Centers for Disease Control and Prevention
                        to remain employed unless they have an exemption to vaccination pursuant to a required reasonable accommodation. This is so that 
                        our employees feel safe in the office."
-
                         partOneStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partTwoStyle="text-left pt-[.7rem] pb-[.2rem]"
                         partThreeStyle={"hidden"}
                         partFourStyle={"hidden"}
                     />
                 </div>
-
-
             </div>
 
         </div>
