@@ -23,6 +23,7 @@ import Courses from "./pages/Courses";
 import Career from "./pages/Career";
 import CareerStudent from "./pages/CareerStudent";
 import CareerAboutUs from "./pages/CareerAboutUs";
+import CareerFaqs from "./pages/CareerFaqs";
 
 /* About Us Updated Pages:*//* 
 import Career from "./components/about_us/Career/Career";
@@ -73,14 +74,7 @@ function App() {
           <Route path="/career"><Career /></Route>
           <Route path="/careerstudents"> <CareerStudent /></Route>
           <Route path="/careeraboutus"><CareerAboutUs /></Route>
-          {/* 
-
-
-
-
-            <Route path="/careerfaq">
-              <CareerFaq />
-            </Route> */}
+          <Route path="/careerfaq"><CareerFaqs /></Route>
 
 
 

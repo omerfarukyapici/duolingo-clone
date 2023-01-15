@@ -1,15 +1,3 @@
-/* 
-import CareerOurPart from '../../../Press/Our/OurComp';
-
-import ourPartOne from '../../../Press/Pressİmg/ourOne.svg';
-import ourPartTwo from '../../../Press/Pressİmg/ourTwo.svg';
-
-import ourTeamİmg from '../../Careerİmg/analist.svg';
-import ourPeople from '../../Careerİmg/ourPeople.svg'
-import ourCulture from '../../Careerİmg/ourCulture.svg'
-
-import CareerProducts from '../../../Press/OurProducts/OurProducts';
-*/
 import { OurComp } from "../components/press/OurComp";
 
 import ourPartOne from "../assets/img/press/ourOne.svg";
@@ -21,10 +9,16 @@ import ourCulture from "../assets/img/career/ourCulture.svg"
 
 import { OurProducts } from "../components/press/OurProducts";
 
+import Navbar from "../components/career/Navbar";
+import Footer from "../components/career/Footer";
+
 const CareerAboutUs = () => {
     return (
         <>
-            <div className="flex justify-center">
+
+            <Navbar />
+
+            <div className="flex justify-center pt-20">
                 <div>
                     <div className="w-auto lg:w-[1080px] pb-20 border-b-[2px] border-solid border-[#d6d8da]">
                         <OurComp
@@ -87,6 +81,8 @@ const CareerAboutUs = () => {
 
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

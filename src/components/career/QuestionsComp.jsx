@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import down from '../../Careerİmg/down.svg';
+import down from "../../assets/img/career/down.svg";
 
 const QuestionsComp = ({
     questionContent,
