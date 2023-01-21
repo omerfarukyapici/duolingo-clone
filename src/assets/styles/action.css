@@ -1,0 +1,60 @@
+.ActionPage {
+    height: 100vh;
+     
+}
+
+.ActionFooter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 20%;
+    border-top: solid 2px #e5e5e5;
+    display: flex;
+    justify-content: center;
+}
+
+.ExitTheActionButton {
+    background-image: url("../img/action/x.svg");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+.contentPart{
+    padding-top: 6%;
+}
+
+
+.checkButtonOne, .checkButtonTwo{
+    border: solid 3px #e5e5e5;
+    height: 3.2rem;
+    border-radius: 1rem;
+    border-bottom: 5px solid #e5e5e5;
+    font-weight: 700;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 4%;
+}
+.checkButtonOne:focus, .checkButtonTwo:focus:focus {
+    border-bottom: 3px solid #e5e5e5;
+    position: relative;
+    top: 2px;
+    
+}
+
+.callback,
+.discuss{
+    opacity: .7;
+}
+
+.callback:hover,
+.discuss:hover {
+    opacity: 1;
+}

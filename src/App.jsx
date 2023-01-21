@@ -1,11 +1,6 @@
-/* Slider library */
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-/* React router dom */
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-
-/* Welcome Page */
 import Welcome from "./pages/Welcome";
 import Abc from "./pages/Abc";
 import Stories from "./pages/Stories";
@@ -24,80 +19,36 @@ import Career from "./pages/Career";
 import CareerStudent from "./pages/CareerStudent";
 import CareerAboutUs from "./pages/CareerAboutUs";
 import CareerFaqs from "./pages/CareerFaqs";
-
 import DuoAboutUs from "./pages/DuoAboutUs";
- 
- 
- 
-
-
-/* Action */
-/* import Action from './components/Action/Action';*/
-
-
+import Action from "./pages/Action";
 
 function App() {
-
 
   return (
     <div className="App">
       <Router>
         <Switch>
-
-          {/* Home Page */}
           <Route exact path="/"><Welcome /></Route>
-
-
-          {/* About Us */}
           <Route path="/research"><ReSearch /></Route>
           <Route path="/efficacy"> <Efficacy /></Route>
           <Route path="/courses"><Courses /></Route>
           <Route path="/duoaboutus"><DuoAboutUs /></Route>
-
-
-
-
-          {/* BUİLDİNG PAGES */}
-
           <Route path="/press"><Press /></Route>
           <Route path="/career"><Career /></Route>
           <Route path="/careerstudents"> <CareerStudent /></Route>
           <Route path="/careeraboutus"><CareerAboutUs /></Route>
           <Route path="/careerfaq"><CareerFaqs /></Route>
-
-
-
-
-
-
-          {/* Privacy And Terms */}
           <Route path="/communityguide"><CommunityGuide /></Route>
           <Route path="/privacy"><Privacy /></Route>
           <Route path="/terms"><Terms /></Route>
-
-
-
-          {/* Products */}
           <Route path="/abc"><Abc /></Route>
           <Route path="/duoforschool"><DuoForSchool /></Route>
           <Route path="/stories"><Stories /></Route>
-
-
-
-          {/* Learn */}
           <Route path="/learnstories"><LearnStories /></Route>
           <Route path="/Learn"><Learn /></Route>
           <Route path="/shop"><Shop /></Route>
-
-
-          {/* Action */}
-
-          {/* <Route path="/Action">
-              <Action />
-            </Route> */}
-
+          <Route path="/Action"><Action /></Route>
         </Switch>
-
       </Router>
     </div>
   );
