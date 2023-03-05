@@ -1,7 +1,6 @@
 ☆🌎 DUOLINGO WEB APPLICATION CLONE 🌎☆
 
 <ul>
-    <li>This is my biggest project ever 🥳</li>
     <li>So much learned from the project 🥳</li>
     <li>23 different designed pages 📄</li> 
 </ul>
