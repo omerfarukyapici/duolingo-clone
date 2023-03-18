@@ -26,7 +26,10 @@ const QuestionsComp = ({
                 <div className='py-[1.6rem] flex justify-between'>
                     <h2 className='text-left text-[#4b4b4b] text-[19px] leading-[27px] font-bold break-words'>{questionContent}</h2>
                     
-                    <img className='hidden md:block' alt='' src={down} />
+                    {
+                        !answer ? <img className='hidden md:block' alt='' src={ down} /> : "yukarı"
+                    }
+                    
                 </div>
             </button>
             {

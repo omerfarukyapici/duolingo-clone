@@ -2,7 +2,7 @@
 
 <ul>
     <li>So much learned from the project 🥳</li>
-    <li>23 different designed pages 📄</li> 
+    <li>23 different designed pages</li> 
 </ul>
 
 Pages =

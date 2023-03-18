@@ -70,8 +70,8 @@ const Students = () => {
                         contentClass="w-full lg:w-[500px] pl-0 lg:pl-10 m-2 lg:m-20"
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
-                        ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem]"}
-                        ourTwoİmgStyle={"w-auto rounded-[1rem]"}
+                        ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem] object-cover"}
+                        ourTwoİmgStyle={"w-auto rounded-[1rem] object-cover"}
                     />
                     <OurComp
                         compClass="block lg:flex py-[1rem] px-2"
@@ -86,8 +86,8 @@ const Students = () => {
                         contentClass="w-full lg:w-[520px] m-2 lg:m-20"
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
-                        ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem]"}
-                        ourTwoİmgStyle={"w-auto rounded-[1rem]"}
+                        ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem] object-cover"}
+                        ourTwoİmgStyle={"w-auto rounded-[1rem] object-cover"}
                     />
                     <OurComp
                         compClass="block lg:flex py-[1rem] pl-2 lg:pl-16 px-2"
@@ -102,8 +102,8 @@ const Students = () => {
                         contentClass="w-full lg:w-[500px] pl-0 lg:pl-10 m-2 lg:m-20"
                         teamLinkedinLink={""}
                         teamLinkedinİmgClass={" teamLinkedinİmg "}
-                        ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem]"}
-                        ourTwoİmgStyle={"w-auto rounded-[1rem]"}
+                        ourMobileİmgStyle={"w-auto lg:w-[318px] rounded-[1rem] object-cover"}
+                        ourTwoİmgStyle={"w-auto rounded-[1rem] object-cover"}
                     />
                 </div>
             </div>

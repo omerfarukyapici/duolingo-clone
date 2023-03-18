@@ -12,7 +12,12 @@ import { OurProducts } from "../components/press/OurProducts";
 import Navbar from "../components/career/Navbar";
 import Footer from "../components/career/Footer";
 
+import { toTop } from "../utils/index";
+import { useEffect } from "react";
+
 const CareerAboutUs = () => {
+    useEffect(() => { toTop() })
+
     return (
         <>
 

@@ -26,10 +26,10 @@ export const OurComp = ({
 
             <div className={compClass}>
                 <div className="flex justify-center lg:hidden relative">
-                    <img className={ourMobileİmgStyle} alt="" src={ourMobileİmg} />
+                    <img className={ourMobileİmgStyle} alt="" loading="lazy" src={ourMobileİmg} />
                 </div>
                 <div className="hidden justify-center lg:flex relative">
-                    <img className={ourTwoİmgStyle} alt="" src={ourTwoİmg} />
+                    <img className={ourTwoİmgStyle} alt="" loading="lazy" src={ourTwoİmg} />
                 </div>
                 <div className="flex justify-center">
                     <div className={contentClass}>
