@@ -21,6 +21,7 @@ import CareerAboutUs from "./pages/CareerAboutUs";
 import CareerFaqs from "./pages/CareerFaqs";
 import DuoAboutUs from "./pages/DuoAboutUs";
 import Action from "./pages/Action";
+import CoursesMain from "./pages/Courses";
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/duoaboutus"><DuoAboutUs /></Route>
           <Route path="/press"><Press /></Route>
           <Route path="/career"><Career /></Route>
+          <Route path="/coursemain"><CoursesMain /></Route>
           <Route path="/careerstudents"> <CareerStudent /></Route>
           <Route path="/careeraboutus"><CareerAboutUs /></Route>
           <Route path="/careerfaq"><CareerFaqs /></Route>

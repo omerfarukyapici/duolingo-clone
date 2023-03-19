@@ -9,6 +9,7 @@ const CoursesMain = () => {
 
     return (
         <div>
+            
             <Header />
             <Content />
             <Footer />
@@ -16,4 +17,4 @@ const CoursesMain = () => {
     );
 }
 
-export default CoursesMain;
+export default CoursesMain;     
